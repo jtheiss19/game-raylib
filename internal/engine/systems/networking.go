@@ -31,6 +31,11 @@ func NewNetworkingSystem(isServer bool) *NetworkingSystem {
 // Comps
 type RequiredNetworkingSystemComps struct {
 	Network []*RequireNetworking
+	Player  []*RequirePlayers
+}
+
+type RequirePlayers struct {
+	Player *components.PlayerComponent
 }
 
 type RequireNetworking struct {
@@ -39,18 +44,34 @@ type RequireNetworking struct {
 
 func (ts *NetworkingSystem) GetRequiredComponents() interface{} {
 	return &RequiredNetworkingSystemComps{
-		Network: []*RequireNetworking{{
-			Network: &components.NetworkComponent{},
-		}},
+		Network: []*RequireNetworking{{Network: &components.NetworkComponent{}}},
+		Player:  []*RequirePlayers{{Player: &components.PlayerComponent{}}},
 	}
 }
 
 // Functionality
 func (ts *NetworkingSystem) Update(dt float32) {
-	_, ok := ts.TrackedEntities.(*RequiredNetworkingSystemComps)
+	networkedEntities, ok := ts.TrackedEntities.(*RequiredNetworkingSystemComps)
 	if !ok {
 		logrus.Error("could not update system, bad tracked entities")
 		return
+	}
+
+	// Contstantly push entities the player owns via the player component.
+	if !ts.isServer {
+		for _, reqComp := range networkedEntities.Player {
+			if reqComp.Player.PlayerID == ts.playerID {
+				id, _ := reqComp.Player.GetComponentID()
+				entity := ecs.GetActiveWorld().GetEntity(id)
+				for _, comp := range entity {
+					packet := network.CreatePacket(string(COMPONENT_DATA), comp)
+					err := ts.connections[0].Encode(packet)
+					if err != nil {
+						logrus.Error(err)
+					}
+				}
+			}
+		}
 	}
 
 	// Periodically have the client request world updates
@@ -64,6 +85,7 @@ func (ts *NetworkingSystem) Update(dt float32) {
 			logrus.Error(err)
 		}
 	}
+
 }
 
 func (ts *NetworkingSystem) Initilizer() {
@@ -145,6 +167,17 @@ func (ts *NetworkingSystem) serverTCPhandler(enc *gob.Encoder, packet *network.P
 				}
 			}
 		}
+	case COMPONENT_DATA:
+		newComp := packet.Data
+		logrus.Debugf("I got a new comp: %v", newComp)
+		newComponent, ok := newComp.(ecs.Component)
+		if !ok {
+			break
+		}
+		switch newComponent := newComponent.(type) {
+		default:
+			createComponent(newComponent)
+		}
 	}
 }
 
@@ -163,8 +196,6 @@ func (ts *NetworkingSystem) clientTCPhandler(enc *gob.Encoder, packet *network.P
 			if newComponent.PlayerID != ts.playerID {
 				break
 			}
-			ecs.GetActiveWorld().AddComponent(&newComponent)
-		case components.TransformationComponent:
 			ecs.GetActiveWorld().AddComponent(&newComponent)
 		default:
 			createComponent(newComponent)
