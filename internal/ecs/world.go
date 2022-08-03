@@ -2,12 +2,14 @@ package ecs
 
 import (
 	"reflect"
+	"sync"
 
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"
 )
 
 var (
+	mu          sync.Mutex
 	activeWorld *World
 )
 
@@ -48,8 +50,15 @@ func (wrld *World) AddComponent(comp Component) {
 		id = comp.generateComponentID()
 	}
 
+	mu.Lock()
 	if comps, ok := wrld.entityLookup[id]; ok {
-		comps[reflect.TypeOf(comp)] = comp
+		if foundComp, ok := comps[reflect.TypeOf(comp)]; ok {
+			v := reflect.ValueOf(foundComp).Elem()
+			v.Set(reflect.ValueOf(comp).Elem())
+		} else {
+			comps[reflect.TypeOf(comp)] = comp
+		}
+
 		wrld.entityLookup[id] = comps
 		wrld.checkCompsForNewSystemMatch(comps)
 	} else {
@@ -58,6 +67,7 @@ func (wrld *World) AddComponent(comp Component) {
 		wrld.entityLookup[id] = compsMap
 		wrld.checkCompsForNewSystemMatch(compsMap)
 	}
+	mu.Unlock()
 }
 
 // RemoveCompoent removes a compoent from the World

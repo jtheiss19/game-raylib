@@ -15,8 +15,10 @@ import (
 
 type NetworkingSystem struct {
 	*ecs.BaseSystem
-	isServer bool
-	playerID ecs.ID
+	isServer        bool
+	playerID        ecs.ID
+	timeSinceUpdate float32
+	connections     []*gob.Encoder
 }
 
 func NewNetworkingSystem(isServer bool) *NetworkingSystem {
@@ -50,6 +52,18 @@ func (ts *NetworkingSystem) Update(dt float32) {
 		logrus.Error("could not update system, bad tracked entities")
 		return
 	}
+
+	// Periodically have the client request world updates
+	ts.timeSinceUpdate += dt
+	if ts.timeSinceUpdate > 5000 && !ts.isServer && len(ts.connections) > 0 {
+		ts.timeSinceUpdate = 0
+		logrus.Info("Requesting World State")
+		packet := network.CreatePacket(string(WORLD_UPDATE), "request regular world update")
+		err := ts.connections[0].Encode(packet)
+		if err != nil {
+			logrus.Error(err)
+		}
+	}
 }
 
 func (ts *NetworkingSystem) Initilizer() {
@@ -58,14 +72,11 @@ func (ts *NetworkingSystem) Initilizer() {
 		go network.ListenTCP()
 	} else {
 		network.HandleTCPFunc = ts.clientTCPhandler
-		conn, err := network.StartTCPConnection()
+		err := network.StartTCPConnection()
 		if err != nil {
 			logrus.Fatal(err)
 		}
-		err = network.CreatePacket(string(JOIN_PACKET), "Joseph").SendPacket(conn)
-		if err != nil {
-			logrus.Fatal(err)
-		}
+
 	}
 }
 
@@ -86,8 +97,10 @@ const (
 	JOIN_PACKET    MessageType = "join" // Data should be player name
 	COMPONENT_DATA MessageType = "new comp"
 	PLAYER_DATA    MessageType = "player data"
+	WORLD_UPDATE   MessageType = "request for world data"
 )
 
+// Server Handler
 func (ts *NetworkingSystem) serverTCPhandler(enc *gob.Encoder, packet *network.Packet) {
 
 	switch MessageType(packet.Type) {
@@ -102,16 +115,22 @@ func (ts *NetworkingSystem) serverTCPhandler(enc *gob.Encoder, packet *network.P
 			logrus.Error(err)
 		}
 
+		// Add connection to pool
+		ts.connections = append(ts.connections, enc)
+
 		comps := objects.NewPlayer(newPlayersID)
 		ecs.GetActiveWorld().AddEntity(comps)
 
-		entities, ok := ts.TrackedEntities.(*RequiredNetworkingSystemComps)
+	case WORLD_UPDATE:
+		logrus.Info("Recieved World Update Request")
+		networkedEntities, ok := ts.TrackedEntities.(*RequiredNetworkingSystemComps)
 		if !ok {
 			logrus.Error("could not update system, bad tracked entities")
 			return
 		}
-		for _, comp := range entities.Network {
-			compID := comp.Network.EntityID
+
+		for _, entity := range networkedEntities.Network {
+			compID, _ := entity.Network.GetComponentID()
 			entity := ecs.GetActiveWorld().GetEntity(compID)
 			for _, comp := range entity {
 				if testComp, ok := comp.(*components.TransformationComponent); ok {
@@ -126,10 +145,10 @@ func (ts *NetworkingSystem) serverTCPhandler(enc *gob.Encoder, packet *network.P
 				}
 			}
 		}
-
 	}
 }
 
+// Client Handler
 func (ts *NetworkingSystem) clientTCPhandler(enc *gob.Encoder, packet *network.Packet) {
 	switch MessageType(packet.Type) {
 	case COMPONENT_DATA:
@@ -146,18 +165,34 @@ func (ts *NetworkingSystem) clientTCPhandler(enc *gob.Encoder, packet *network.P
 			}
 			ecs.GetActiveWorld().AddComponent(&newComponent)
 		case components.TransformationComponent:
-			fmt.Println(newComponent)
 			ecs.GetActiveWorld().AddComponent(&newComponent)
 		default:
 			createComponent(newComponent)
 		}
 
 	case PLAYER_DATA:
+		// Add connection to pool
+		ts.connections = append(ts.connections, enc)
+
 		id := packet.Data
 		logrus.Infof("setting playerID: %v", id)
 		if convertedID, ok := id.(ecs.ID); ok {
 			ts.playerID = convertedID
 		}
+
+		packet := network.CreatePacket(string(WORLD_UPDATE), "request regular world update")
+		err := enc.Encode(packet)
+		if err != nil {
+			logrus.Error(err)
+		}
+
+	default:
+		packet := network.CreatePacket(string(JOIN_PACKET), "Joseph")
+		err := enc.Encode(packet)
+		if err != nil {
+			logrus.Error(err)
+		}
+
 	}
 }
 

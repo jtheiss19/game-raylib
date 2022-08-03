@@ -108,7 +108,7 @@ func (bs *BaseSystem) addEntity(comps map[reflect.Type]Component) {
 					break
 				}
 			}
-			if found {
+			if found { // Found Entity Already Exists
 				continue
 			}
 		}

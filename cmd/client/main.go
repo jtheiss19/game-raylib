@@ -31,7 +31,13 @@ func main() {
 	wrld.AddSystem(pcs)
 
 	for !rl.WindowShouldClose() {
-		wrld.UpdateSystems(0)
+		delay := 1 / rl.GetFPS() * 1000
+		if delay > 10000 {
+			wrld.UpdateSystems(0)
+		} else {
+			wrld.UpdateSystems(delay)
+		}
+
 	}
 
 	rl.CloseWindow()

@@ -11,16 +11,16 @@ func handleTCPRequest(enc *gob.Encoder, packet *Packet) {
 	logrus.Warn("using default TCP request handler")
 }
 
-func StartTCPConnection() (net.Conn, error) {
+func StartTCPConnection() error {
 	// Connect
 	conn, err := net.Dial("tcp", host+tcpPort)
 	if err != nil {
-		return &net.TCPConn{}, err
+		return err
 	}
 
 	go tcpHandleConnection(conn)
 
-	return conn, nil
+	return nil
 }
 
 func ListenTCP() {
@@ -52,6 +52,10 @@ func tcpHandleConnection(conn net.Conn) {
 	defer conn.Close()
 	dec := gob.NewDecoder(conn)
 	enc := gob.NewEncoder(conn)
+
+	// Triggers Default Path
+	HandleTCPFunc(enc, &Packet{Type: "Default"})
+
 	for {
 		// Read
 		p, err := readPacket(dec)
