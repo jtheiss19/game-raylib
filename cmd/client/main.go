@@ -3,6 +3,7 @@ package main
 import (
 	"rouge/internal/ecs"
 	"rouge/internal/engine/systems"
+	"rouge/internal/engine/systems/multiplayer"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
@@ -24,7 +25,7 @@ func main() {
 	newRenderer := systems.NewRenderingSystem()
 	wrld.AddSystem(newRenderer)
 
-	multiplayerSystem := systems.NewNetworkingSystem(false)
+	multiplayerSystem := multiplayer.NewNetworkingSystem(false)
 	wrld.AddSystem(multiplayerSystem)
 
 	pcs := systems.NewPlayerControllerSystem()

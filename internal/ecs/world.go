@@ -115,6 +115,8 @@ func (wrld *World) AddEntity(comps []Component) ID {
 // Get Entity gets all the components in the World that
 // share a UUID
 func (wrld *World) GetEntity(entityID ID) map[reflect.Type]Component {
+	mu.Lock()
+	defer mu.Unlock()
 	if compsMap, ok := wrld.entityLookup[entityID]; !ok {
 		return map[reflect.Type]Component{}
 	} else {

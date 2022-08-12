@@ -3,21 +3,21 @@ package main
 import (
 	"fmt"
 	"rouge/internal/ecs"
-	"rouge/internal/engine/systems"
+	"rouge/internal/engine/systems/multiplayer"
 	"time"
 )
 
 func main() {
 
 	wrld := ecs.NewWorld()
-	multiplayerSystem := systems.NewNetworkingSystem(true)
+	multiplayerSystem := multiplayer.NewNetworkingSystem(true)
 	wrld.AddSystem(multiplayerSystem)
 
 	step := time.Millisecond * 16
 
 	next := time.Now().Add(step)
 	for {
-		wrld.UpdateSystems(0)
+		wrld.UpdateSystems(16.0)
 
 		if time.Until(next) < -step {
 			delaycnt := float32(-time.Until(next).Milliseconds()) / float32(step.Milliseconds())
