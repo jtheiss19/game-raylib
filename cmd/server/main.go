@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"rouge/internal/ecs"
+	"rouge/internal/engine/objects"
 	"rouge/internal/engine/systems/multiplayer"
 	"time"
 )
@@ -12,6 +13,10 @@ func main() {
 	wrld := ecs.NewWorld()
 	multiplayerSystem := multiplayer.NewNetworkingSystem(true)
 	wrld.AddSystem(multiplayerSystem)
+
+	wrld.AddEntity(objects.NewBlock(10, 0, 0))
+	wrld.AddEntity(objects.NewBlock(0, 10, 0))
+	wrld.AddEntity(objects.NewBlock(0, 0, 10))
 
 	step := time.Millisecond * 16
 

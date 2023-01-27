@@ -21,6 +21,7 @@ func (ts *NetworkingSystem) updateServer(dt float32) {
 			return
 		}
 
+	out:
 		for _, entity := range networkedEntities.Network {
 			compID, _ := entity.Network.GetComponentID()
 			if playerID == compID {
@@ -34,6 +35,8 @@ func (ts *NetworkingSystem) updateServer(dt float32) {
 				err := enc.Encode(packet)
 				if err != nil {
 					logrus.Error(err)
+					delete(ts.connections, playerID)
+					break out
 				}
 			}
 		}

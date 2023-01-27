@@ -14,6 +14,8 @@ type RenderingSystem struct {
 }
 
 func NewRenderingSystem() *RenderingSystem {
+	LoadDefaults()
+
 	return &RenderingSystem{
 		BaseSystem: &ecs.BaseSystem{},
 	}
@@ -47,6 +49,14 @@ func (ts *RenderingSystem) GetRequiredComponents() interface{} {
 	}
 }
 
+var (
+	demoModel = rl.Model{}
+)
+
+func LoadDefaults() {
+	demoModel = rl.LoadModel(`assets\box\Crate1.obj`)
+}
+
 // Functionality
 func (ts *RenderingSystem) Update(dt float32) {
 	entities, ok := ts.TrackedEntities.(*RequiredRenderingSystemComps)
@@ -64,19 +74,8 @@ func (ts *RenderingSystem) Update(dt float32) {
 		rl.ClearBackground(rl.RayWhite)
 		rl.BeginMode3D(*camera)
 
-		rl.DrawPlane(rl.NewVector3(0.0, 0.0, 0.0), rl.NewVector2(32.0, 32.0), rl.LightGray) // Draw ground
-		rl.DrawCube(rl.NewVector3(-16.0, 2.5, 0.0), 1.0, 5.0, 32.0, rl.Blue)                // Draw a blue wall
-		rl.DrawCube(rl.NewVector3(16.0, 2.5, 0.0), 1.0, 5.0, 32.0, rl.Lime)                 // Draw a green wall
-		rl.DrawCube(rl.NewVector3(0.0, 2.5, 16.0), 32.0, 5.0, 1.0, rl.Gold)                 // Draw a yellow wall
-
-		// Draw some cubes around
-		for i := 0; i < maxColumns; i++ {
-			rl.DrawCube(positions[i], 2.0, heights[i], 2.0, colors[i])
-			rl.DrawCubeWires(positions[i], 2.0, heights[i], 2.0, rl.Maroon)
-		}
-
 		for _, entity := range entities.Model {
-			rl.DrawCubeV(entity.Transformation.Position, entity.Transformation.Scale, rl.Green)
+			rl.DrawModel(demoModel, entity.Transformation.Position, entity.Transformation.Scale.X, rl.White)
 		}
 
 		rl.EndMode3D()
@@ -87,9 +86,7 @@ func (ts *RenderingSystem) Update(dt float32) {
 		rl.DrawFPS(10, 10)
 
 		rl.EndDrawing()
-
 	}
-
 }
 
 var (
