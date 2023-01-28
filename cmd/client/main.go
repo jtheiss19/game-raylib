@@ -23,8 +23,11 @@ func main() {
 
 	wrld := ecs.NewWorld()
 
-	newRenderer := systems2d.NewRenderingSystem()
-	wrld.AddSystem(newRenderer)
+	entityRenderer := systems2d.NewRenderingSystem()
+	wrld.AddSystem(entityRenderer)
+
+	landRenderer := systems2d.NewLandRenderingSystem()
+	wrld.AddSystem(landRenderer)
 
 	pcs := systems2d.NewPlayerControllerSystem()
 	wrld.AddSystem(pcs)
@@ -32,11 +35,9 @@ func main() {
 	// multiplayerSystem := multiplayer.NewNetworkingSystem(false)
 	// wrld.AddSystem(multiplayerSystem)
 
-	wrld.AddEntity(objects2d.NewBlock2d(50, 0))
-	wrld.AddEntity(objects2d.NewBlock2d(0, 50))
-	wrld.AddEntity(objects2d.NewBlock2d(0, 0))
-
 	wrld.AddEntity(objects2d.New2DPlayer(ecs.ID(uuid.New().String())))
+
+	wrld.AddEntity(objects2d.NewLand(5, 10, 0, 0))
 
 	for !rl.WindowShouldClose() {
 		delay := 1 / rl.GetFPS() * 1000

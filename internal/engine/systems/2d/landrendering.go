@@ -24,12 +24,16 @@ type RequiredLandRenderingSystemComps struct {
 }
 
 type RequireLand struct {
-	LandComponent *components2d.LandComponent
+	LandComponent      *components2d.LandComponent
+	TransformComponent *components2d.Transformation2DComponent
 }
 
 func (ts *LandRenderingSystem) GetRequiredComponents() interface{} {
 	return &RequiredLandRenderingSystemComps{
-		Land: []*RequireLand{{}},
+		Land: []*RequireLand{{
+			LandComponent:      &components2d.LandComponent{},
+			TransformComponent: &components2d.Transformation2DComponent{},
+		}},
 	}
 }
 
@@ -41,7 +45,9 @@ func (ts *LandRenderingSystem) Update(dt float32) {
 		return
 	}
 
-	fmt.Println(entities)
+	for _, entity := range entities.Land {
+		fmt.Println(entity)
+	}
 }
 
 func (ts *LandRenderingSystem) Initilizer() {
