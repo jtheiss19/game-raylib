@@ -2,7 +2,7 @@ package main
 
 import (
 	"rouge/internal/ecs"
-	"rouge/internal/engine/systems"
+	systems3d "rouge/internal/engine/systems/3d"
 	"rouge/internal/engine/systems/multiplayer"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
@@ -22,13 +22,13 @@ func main() {
 
 	wrld := ecs.NewWorld()
 
-	newRenderer := systems.NewRenderingSystem()
+	newRenderer := systems3d.NewRenderingSystem()
 	wrld.AddSystem(newRenderer)
 
 	multiplayerSystem := multiplayer.NewNetworkingSystem(false)
 	wrld.AddSystem(multiplayerSystem)
 
-	pcs := systems.NewPlayerControllerSystem()
+	pcs := systems3d.NewPlayerControllerSystem()
 	wrld.AddSystem(pcs)
 
 	for !rl.WindowShouldClose() {

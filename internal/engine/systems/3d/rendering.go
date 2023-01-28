@@ -1,4 +1,4 @@
-package systems
+package systems3d
 
 import (
 	"rouge/internal/ecs"
