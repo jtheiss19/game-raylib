@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 	"rouge/internal/ecs"
-	"rouge/internal/engine/objects"
+	objects2d "rouge/internal/engine/objects/2d"
 	"rouge/internal/engine/systems/multiplayer"
 	"time"
 )
@@ -14,9 +14,9 @@ func main() {
 	multiplayerSystem := multiplayer.NewNetworkingSystem(true)
 	wrld.AddSystem(multiplayerSystem)
 
-	wrld.AddEntity(objects.NewBlock2d(50, 0))
-	wrld.AddEntity(objects.NewBlock2d(0, 50))
-	wrld.AddEntity(objects.NewBlock2d(0, 0))
+	wrld.AddEntity(objects2d.NewBlock2d(50, 0))
+	wrld.AddEntity(objects2d.NewBlock2d(0, 50))
+	wrld.AddEntity(objects2d.NewBlock2d(0, 0))
 
 	step := time.Millisecond * 16
 

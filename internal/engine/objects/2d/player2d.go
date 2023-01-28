@@ -1,22 +1,25 @@
-package objects
+package objects2d
 
 import (
 	"rouge/internal/ecs"
 	"rouge/internal/engine/components"
 	components2d "rouge/internal/engine/components/2d"
-
-	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-func NewBlock2d(x, y float32) []ecs.Component {
+func New2DPlayer(playerID ecs.ID) []ecs.Component {
+	cameraComponent := components2d.NewCamera2DComponent()
 	TransformationComponent := components2d.NewTransformation2DComponent()
-	TransformationComponent.Position = rl.NewVector2(x, y)
-	ModelComponent := components.NewModelComponent()
+	InputComponent := components.NewInputComponent()
 	NetworkComponent := components.NewNetworkComponent()
+	ModelComponent := components.NewModelComponent()
+	playerComponent := components.NewPlayerComponent(playerID)
 
 	return []ecs.Component{
+		cameraComponent,
 		TransformationComponent,
+		InputComponent,
 		NetworkComponent,
+		playerComponent,
 		ModelComponent,
 	}
 }

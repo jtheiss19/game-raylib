@@ -3,7 +3,7 @@ package multiplayer
 import (
 	"encoding/gob"
 	"rouge/internal/ecs"
-	"rouge/internal/engine/objects"
+	objects2d "rouge/internal/engine/objects/2d"
 	"rouge/internal/network"
 
 	"github.com/google/uuid"
@@ -102,7 +102,7 @@ func serverJoinHandler(enc *gob.Encoder, ts *NetworkingSystem) {
 		logrus.Error(err)
 	}
 
-	comps := objects.New2DPlayer(newPlayersID)
+	comps := objects2d.New2DPlayer(newPlayersID)
 	playerID := ecs.GetActiveWorld().AddEntity(comps)
 
 	ts.connections[playerID] = enc

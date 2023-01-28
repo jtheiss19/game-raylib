@@ -2,7 +2,7 @@ package main
 
 import (
 	"rouge/internal/ecs"
-	"rouge/internal/engine/objects"
+	objects2d "rouge/internal/engine/objects/2d"
 	systems2d "rouge/internal/engine/systems/2d"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
@@ -32,11 +32,11 @@ func main() {
 	// multiplayerSystem := multiplayer.NewNetworkingSystem(false)
 	// wrld.AddSystem(multiplayerSystem)
 
-	wrld.AddEntity(objects.NewBlock2d(50, 0))
-	wrld.AddEntity(objects.NewBlock2d(0, 50))
-	wrld.AddEntity(objects.NewBlock2d(0, 0))
+	wrld.AddEntity(objects2d.NewBlock2d(50, 0))
+	wrld.AddEntity(objects2d.NewBlock2d(0, 50))
+	wrld.AddEntity(objects2d.NewBlock2d(0, 0))
 
-	wrld.AddEntity(objects.New2DPlayer(ecs.ID(uuid.New().String())))
+	wrld.AddEntity(objects2d.New2DPlayer(ecs.ID(uuid.New().String())))
 
 	for !rl.WindowShouldClose() {
 		delay := 1 / rl.GetFPS() * 1000

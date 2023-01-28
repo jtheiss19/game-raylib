@@ -106,22 +106,6 @@ func (ts *RenderingSystem) Update(dt float32) {
 	}
 }
 
-var (
-	maxColumns = 5
-	heights    []float32
-	positions  []rl.Vector3
-	colors     []rl.Color
-)
-
 func (ts *RenderingSystem) Initilizer() {
-	// Generates some random columns
-	heights = make([]float32, maxColumns)
-	positions = make([]rl.Vector3, maxColumns)
-	colors = make([]rl.Color, maxColumns)
 
-	for i := 0; i < maxColumns; i++ {
-		heights[i] = float32(rl.GetRandomValue(1, 12))
-		positions[i] = rl.NewVector3(float32(rl.GetRandomValue(-15, 15)), heights[i]/2, float32(rl.GetRandomValue(-15, 15)))
-		colors[i] = rl.NewColor(uint8(rl.GetRandomValue(20, 255)), uint8(rl.GetRandomValue(10, 55)), 30, 255)
-	}
 }
