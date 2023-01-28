@@ -74,9 +74,9 @@ func (ts *NetworkingSystem) Initilizer() {
 }
 
 func init() {
-	network.RegisterType(components.CameraComponent{})
+	network.RegisterType(components.Camera3DComponent{})
 	network.RegisterType(components.InputComponent{})
-	network.RegisterType(components.TransformationComponent{})
+	network.RegisterType(components.Transformation3DComponent{})
 	network.RegisterType(components.NetworkComponent{})
 	network.RegisterType(components.ModelComponent{})
 	network.RegisterType(components.PlayerComponent{})

@@ -6,12 +6,12 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-type CameraComponent struct {
+type Camera3DComponent struct {
 	*ecs.BaseComponent
 	Camera *rl.Camera3D
 }
 
-func NewCameraComponent() *CameraComponent {
+func NewCamera3DComponent() *Camera3DComponent {
 	camera := rl.Camera3D{}
 	camera.Position = rl.NewVector3(4.0, 2.0, 4.0)
 	camera.Target = rl.NewVector3(0.0, 1.8, 0.0)
@@ -21,7 +21,7 @@ func NewCameraComponent() *CameraComponent {
 
 	// rl.SetCameraMode(camera, rl.CameraFirstPerson)
 
-	return &CameraComponent{
+	return &Camera3DComponent{
 		BaseComponent: &ecs.BaseComponent{},
 		Camera:        &camera,
 	}

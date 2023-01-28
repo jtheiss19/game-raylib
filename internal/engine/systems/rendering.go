@@ -28,23 +28,23 @@ type RequiredRenderingSystemComps struct {
 }
 
 type RequireModel struct {
-	Transformation *components.TransformationComponent
+	Transformation *components.Transformation3DComponent
 }
 
 type RequireCamera struct {
 	Player         *components.PlayerComponent
-	Camera         *components.CameraComponent
-	Transformation *components.TransformationComponent
+	Camera         *components.Camera3DComponent
+	Transformation *components.Transformation3DComponent
 }
 
 func (ts *RenderingSystem) GetRequiredComponents() interface{} {
 	return &RequiredRenderingSystemComps{
 		Model: []*RequireModel{{
-			Transformation: &components.TransformationComponent{},
+			Transformation: &components.Transformation3DComponent{},
 		}},
 		Camera: []*RequireCamera{{
-			Camera:         &components.CameraComponent{},
-			Transformation: &components.TransformationComponent{},
+			Camera:         &components.Camera3DComponent{},
+			Transformation: &components.Transformation3DComponent{},
 		}},
 	}
 }

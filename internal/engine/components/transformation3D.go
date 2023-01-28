@@ -6,7 +6,7 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-type TransformationComponent struct {
+type Transformation3DComponent struct {
 	*ecs.BaseComponent
 	Position rl.Vector3
 	Scale    rl.Vector3
@@ -14,9 +14,9 @@ type TransformationComponent struct {
 	Forward  rl.Vector3
 }
 
-func NewTransformationComponent() *TransformationComponent {
+func NewTransformation3DComponent() *Transformation3DComponent {
 
-	return &TransformationComponent{
+	return &Transformation3DComponent{
 		BaseComponent: &ecs.BaseComponent{},
 		Position:      rl.Vector3{X: 0, Y: 10.0, Z: 10.0},
 		Scale:         rl.Vector3{X: 1, Y: 1, Z: 1},

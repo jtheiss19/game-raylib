@@ -84,7 +84,7 @@ func serverWorldDataHandler(ts *NetworkingSystem, enc *gob.Encoder) {
 		compID, _ := entity.Network.GetComponentID()
 		entity := ecs.GetActiveWorld().GetEntity(compID)
 		for _, comp := range entity {
-			if testComp, ok := comp.(*components.TransformationComponent); ok {
+			if testComp, ok := comp.(*components.Transformation3DComponent); ok {
 				fmt.Println(testComp)
 			}
 			logrus.Debugf("sending Data: %v", comp)
@@ -106,7 +106,7 @@ func serverJoinHandler(enc *gob.Encoder, ts *NetworkingSystem) {
 		logrus.Error(err)
 	}
 
-	comps := objects.NewPlayer(newPlayersID)
+	comps := objects.New3DPlayer(newPlayersID)
 	playerID := ecs.GetActiveWorld().AddEntity(comps)
 
 	ts.connections[playerID] = enc

@@ -26,8 +26,8 @@ type RequiredPlayerControllerComps struct {
 
 type RequirePlayer struct {
 	Input          *components.InputComponent
-	Camera         *components.CameraComponent
-	Transformation *components.TransformationComponent
+	Camera         *components.Camera3DComponent
+	Transformation *components.Transformation3DComponent
 	Player         *components.PlayerComponent
 }
 
@@ -35,7 +35,7 @@ func (ts *PlayerControllerSystem) GetRequiredComponents() interface{} {
 	return &RequiredPlayerControllerComps{
 		Player: []*RequirePlayer{{
 			Input:          &components.InputComponent{},
-			Transformation: &components.TransformationComponent{},
+			Transformation: &components.Transformation3DComponent{},
 		}},
 	}
 }

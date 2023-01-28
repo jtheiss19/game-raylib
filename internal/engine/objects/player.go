@@ -5,8 +5,8 @@ import (
 	"rouge/internal/engine/components"
 )
 
-func NewPlayer(playerID ecs.ID) []ecs.Component {
-	cameraComponent := components.NewCameraComponent()
+func New3DPlayer(playerID ecs.ID) []ecs.Component {
+	cameraComponent := components.NewCamera3DComponent()
 	TransformationComponent := components.NewTransformationComponent()
 	InputComponent := components.NewInputComponent()
 	NetworkComponent := components.NewNetworkComponent()
