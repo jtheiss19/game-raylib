@@ -14,9 +14,9 @@ func main() {
 	multiplayerSystem := multiplayer.NewNetworkingSystem(true)
 	wrld.AddSystem(multiplayerSystem)
 
-	wrld.AddEntity(objects.NewBlock(10, 0, 0))
-	wrld.AddEntity(objects.NewBlock(0, 10, 0))
-	wrld.AddEntity(objects.NewBlock(0, 0, 10))
+	wrld.AddEntity(objects.NewBlock2d(50, 0))
+	wrld.AddEntity(objects.NewBlock2d(0, 50))
+	wrld.AddEntity(objects.NewBlock2d(0, 0))
 
 	step := time.Millisecond * 16
 

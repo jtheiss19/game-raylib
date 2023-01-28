@@ -102,7 +102,7 @@ func serverJoinHandler(enc *gob.Encoder, ts *NetworkingSystem) {
 		logrus.Error(err)
 	}
 
-	comps := objects.New3DPlayer(newPlayersID)
+	comps := objects.New2DPlayer(newPlayersID)
 	playerID := ecs.GetActiveWorld().AddEntity(comps)
 
 	ts.connections[playerID] = enc

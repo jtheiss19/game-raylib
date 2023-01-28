@@ -8,16 +8,15 @@ import (
 
 type Camera2DComponent struct {
 	*ecs.BaseComponent
-	Camera *rl.Camera3D
+	Camera *rl.Camera2D
 }
 
-func NewCamera3DComponent() *Camera2DComponent {
-	camera := rl.Camera3D{}
-	camera.Position = rl.NewVector3(4.0, 2.0, 4.0)
-	camera.Target = rl.NewVector3(0.0, 1.8, 0.0)
-	camera.Up = rl.NewVector3(0.0, 1.0, 0.0)
-	camera.Fovy = 60.0
-	camera.Projection = rl.CameraPerspective
+func NewCamera2DComponent() *Camera2DComponent {
+	camera := rl.Camera2D{}
+	camera.Offset = rl.NewVector2(0, 0)
+	camera.Target = rl.NewVector2(0, 0)
+	camera.Rotation = 0
+	camera.Zoom = 1
 
 	// rl.SetCameraMode(camera, rl.CameraFirstPerson)
 

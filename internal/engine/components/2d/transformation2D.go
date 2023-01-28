@@ -8,19 +8,17 @@ import (
 
 type Transformation2DComponent struct {
 	*ecs.BaseComponent
-	Position rl.Vector3
-	Scale    rl.Vector3
-	Rotation rl.Vector3
-	Forward  rl.Vector3
+	Position rl.Vector2
+	Scale    rl.Vector2
+	Rotation float32
 }
 
-func NewTransformationComponent() *Transformation2DComponent {
+func NewTransformation2DComponent() *Transformation2DComponent {
 
 	return &Transformation2DComponent{
 		BaseComponent: &ecs.BaseComponent{},
-		Position:      rl.Vector3{X: 0, Y: 10.0, Z: 10.0},
-		Scale:         rl.Vector3{X: 1, Y: 1, Z: 1},
-		Rotation:      rl.Vector3{X: 0, Y: 0, Z: 0},
-		Forward:       rl.Vector3{X: 0, Y: 0, Z: 0},
+		Position:      rl.Vector2{X: 0, Y: 0},
+		Scale:         rl.Vector2{X: 1, Y: 1},
+		Rotation:      0,
 	}
 }
