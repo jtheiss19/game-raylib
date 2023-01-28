@@ -1,4 +1,4 @@
-package components
+package components3d
 
 import (
 	"rouge/internal/ecs"

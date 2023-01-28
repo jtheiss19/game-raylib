@@ -1,4 +1,4 @@
-package components
+package components2d
 
 import (
 	"rouge/internal/ecs"
@@ -6,7 +6,7 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-type Transformation3DComponent struct {
+type Transformation2DComponent struct {
 	*ecs.BaseComponent
 	Position rl.Vector3
 	Scale    rl.Vector3
@@ -14,9 +14,9 @@ type Transformation3DComponent struct {
 	Forward  rl.Vector3
 }
 
-func NewTransformation3DComponent() *Transformation3DComponent {
+func NewTransformationComponent() *Transformation2DComponent {
 
-	return &Transformation3DComponent{
+	return &Transformation2DComponent{
 		BaseComponent: &ecs.BaseComponent{},
 		Position:      rl.Vector3{X: 0, Y: 10.0, Z: 10.0},
 		Scale:         rl.Vector3{X: 1, Y: 1, Z: 1},

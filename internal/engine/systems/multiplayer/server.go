@@ -2,9 +2,7 @@ package multiplayer
 
 import (
 	"encoding/gob"
-	"fmt"
 	"rouge/internal/ecs"
-	"rouge/internal/engine/components"
 	"rouge/internal/engine/objects"
 	"rouge/internal/network"
 
@@ -84,9 +82,7 @@ func serverWorldDataHandler(ts *NetworkingSystem, enc *gob.Encoder) {
 		compID, _ := entity.Network.GetComponentID()
 		entity := ecs.GetActiveWorld().GetEntity(compID)
 		for _, comp := range entity {
-			if testComp, ok := comp.(*components.Transformation3DComponent); ok {
-				fmt.Println(testComp)
-			}
+
 			logrus.Debugf("sending Data: %v", comp)
 
 			packet := network.CreatePacket(string(COMPONENT_DATA), comp)

@@ -74,12 +74,6 @@ func (ts *NetworkingSystem) Initilizer() {
 }
 
 func init() {
-	network.RegisterType(components.Camera3DComponent{})
-	network.RegisterType(components.InputComponent{})
-	network.RegisterType(components.Transformation3DComponent{})
-	network.RegisterType(components.NetworkComponent{})
-	network.RegisterType(components.ModelComponent{})
-	network.RegisterType(components.PlayerComponent{})
 	network.RegisterType(ecs.BaseComponent{})
 	network.RegisterType(ecs.ID(uuid.Nil.String()))
 }

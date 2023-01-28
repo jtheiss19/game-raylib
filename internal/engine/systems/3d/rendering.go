@@ -3,6 +3,7 @@ package systems3d
 import (
 	"rouge/internal/ecs"
 	"rouge/internal/engine/components"
+	components3d "rouge/internal/engine/components/3d"
 
 	"github.com/sirupsen/logrus"
 
@@ -28,23 +29,23 @@ type RequiredRenderingSystemComps struct {
 }
 
 type RequireModel struct {
-	Transformation *components.Transformation3DComponent
+	Transformation *components3d.Transformation3DComponent
 }
 
 type RequireCamera struct {
 	Player         *components.PlayerComponent
-	Camera         *components.Camera3DComponent
-	Transformation *components.Transformation3DComponent
+	Camera         *components3d.Camera3DComponent
+	Transformation *components3d.Transformation3DComponent
 }
 
 func (ts *RenderingSystem) GetRequiredComponents() interface{} {
 	return &RequiredRenderingSystemComps{
 		Model: []*RequireModel{{
-			Transformation: &components.Transformation3DComponent{},
+			Transformation: &components3d.Transformation3DComponent{},
 		}},
 		Camera: []*RequireCamera{{
-			Camera:         &components.Camera3DComponent{},
-			Transformation: &components.Transformation3DComponent{},
+			Camera:         &components3d.Camera3DComponent{},
+			Transformation: &components3d.Transformation3DComponent{},
 		}},
 	}
 }

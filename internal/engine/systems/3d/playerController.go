@@ -3,6 +3,7 @@ package systems3d
 import (
 	"rouge/internal/ecs"
 	"rouge/internal/engine/components"
+	components3d "rouge/internal/engine/components/3d"
 
 	"github.com/sirupsen/logrus"
 
@@ -26,8 +27,8 @@ type RequiredPlayerControllerComps struct {
 
 type RequirePlayer struct {
 	Input          *components.InputComponent
-	Camera         *components.Camera3DComponent
-	Transformation *components.Transformation3DComponent
+	Camera         *components3d.Camera3DComponent
+	Transformation *components3d.Transformation3DComponent
 	Player         *components.PlayerComponent
 }
 
@@ -35,7 +36,7 @@ func (ts *PlayerControllerSystem) GetRequiredComponents() interface{} {
 	return &RequiredPlayerControllerComps{
 		Player: []*RequirePlayer{{
 			Input:          &components.InputComponent{},
-			Transformation: &components.Transformation3DComponent{},
+			Transformation: &components3d.Transformation3DComponent{},
 		}},
 	}
 }
