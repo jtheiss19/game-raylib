@@ -6,16 +6,16 @@ import (
 
 type LandComponent struct {
 	*ecs.BaseComponent
-	width, height int
-	data          []int
+	Width, Height int
+	Data          []int
 }
 
 func NewLandComponent(width, height int) *LandComponent {
 	return &LandComponent{
 		BaseComponent: &ecs.BaseComponent{},
-		width:         width,
-		height:        height,
-		data:          make([]int, width*height),
+		Width:         width,
+		Height:        height,
+		Data:          make([]int, width*height),
 	}
 }
 

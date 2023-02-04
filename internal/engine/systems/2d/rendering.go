@@ -53,7 +53,6 @@ func (ts *RenderingSystem) GetRequiredComponents() interface{} {
 
 var (
 	demoTexture = rl.Texture2D{}
-	rec         = rl.Rectangle{}
 )
 
 func loadDemoTextures() {
@@ -74,8 +73,6 @@ func (ts *RenderingSystem) Update(dt float32) {
 		camera := entities.Camera[0].Camera.Camera
 
 		// Draw
-		rl.BeginDrawing()
-		rl.ClearBackground(rl.RayWhite)
 		rl.BeginMode2D(*camera)
 
 		for _, entity := range entities.Model {
@@ -101,8 +98,6 @@ func (ts *RenderingSystem) Update(dt float32) {
 		rl.DrawRectangleLines(10, 10, 220, 70, rl.Blue)
 
 		rl.DrawFPS(10, 10)
-
-		rl.EndDrawing()
 	}
 }
 

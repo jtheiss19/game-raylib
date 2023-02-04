@@ -14,8 +14,10 @@ var (
 )
 
 type World struct {
-	systems      []system
-	entityLookup map[ID]map[reflect.Type]Component
+	systems         []system
+	entityLookup    map[ID]map[reflect.Type]Component
+	StartUpdateFunc func()
+	EndUpdateFunc   func()
 }
 
 // NewWorld generates a new empty World and sets
@@ -24,6 +26,10 @@ func NewWorld() *World {
 	activeWorld = &World{
 		systems:      []system{},
 		entityLookup: map[ID]map[reflect.Type]Component{},
+		StartUpdateFunc: func() {
+		},
+		EndUpdateFunc: func() {
+		},
 	}
 	return activeWorld
 }
@@ -37,9 +43,11 @@ func GetActiveWorld() *World {
 // inside the World. Each system is updated with time
 // dt.
 func (wrld *World) UpdateSystems(dt float32) {
+	wrld.StartUpdateFunc()
 	for _, system := range wrld.systems {
 		system.Update(dt)
 	}
+	wrld.EndUpdateFunc()
 }
 
 // AddComponent adds a new component to the World.

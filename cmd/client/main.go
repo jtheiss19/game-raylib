@@ -2,6 +2,7 @@ package main
 
 import (
 	"rouge/internal/ecs"
+	"rouge/internal/engine"
 	objects2d "rouge/internal/engine/objects/2d"
 	systems2d "rouge/internal/engine/systems/2d"
 
@@ -9,20 +10,15 @@ import (
 	"github.com/google/uuid"
 )
 
-func setupScreen() {
-	screenWidth := int32(800)
-	screenHeight := int32(450)
-
-	rl.InitWindow(screenWidth, screenHeight, "game")
-
-	rl.SetTargetFPS(60)
-}
-
 func main() {
-	setupScreen()
+	// Create actual usable screen
+	engine.SetupScreen()
 
+	// Create world
 	wrld := ecs.NewWorld()
+	engine.BootstrapWorldRenderRaylib(wrld)
 
+	// Create and add systems
 	entityRenderer := systems2d.NewRenderingSystem()
 	wrld.AddSystem(entityRenderer)
 
@@ -35,10 +31,11 @@ func main() {
 	// multiplayerSystem := multiplayer.NewNetworkingSystem(false)
 	// wrld.AddSystem(multiplayerSystem)
 
+	// Add objects to world
 	wrld.AddEntity(objects2d.New2DPlayer(ecs.ID(uuid.New().String())))
-
 	wrld.AddEntity(objects2d.NewLand(5, 10, 0, 0))
 
+	// GameLoop
 	for !rl.WindowShouldClose() {
 		delay := 1 / rl.GetFPS() * 1000
 		if delay > 10000 {
@@ -46,7 +43,6 @@ func main() {
 		} else {
 			wrld.UpdateSystems(delay)
 		}
-
 	}
 
 	rl.CloseWindow()
