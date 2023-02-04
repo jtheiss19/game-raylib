@@ -94,9 +94,8 @@ func (ts *RenderingSystem) Update(dt float32) {
 
 		rl.EndMode2D()
 
-		rl.DrawRectangle(10, 10, 220, 70, rl.Fade(rl.SkyBlue, 0.5))
-		rl.DrawRectangleLines(10, 10, 220, 70, rl.Blue)
-
+		rl.DrawRectangle(10, 10, 80, 20, rl.Fade(rl.SkyBlue, 0.5))
+		rl.DrawRectangleLines(10, 10, 80, 20, rl.Blue)
 		rl.DrawFPS(10, 10)
 	}
 }

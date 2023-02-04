@@ -13,6 +13,7 @@ func New2DPlayer(playerID ecs.ID) []ecs.Component {
 	NetworkComponent := components.NewNetworkComponent()
 	ModelComponent := components.NewModelComponent()
 	playerComponent := components.NewPlayerComponent(playerID)
+	collisionComponent := components2d.NewCollision2DComponent()
 
 	return []ecs.Component{
 		cameraComponent,
@@ -21,5 +22,6 @@ func New2DPlayer(playerID ecs.ID) []ecs.Component {
 		NetworkComponent,
 		playerComponent,
 		ModelComponent,
+		collisionComponent,
 	}
 }

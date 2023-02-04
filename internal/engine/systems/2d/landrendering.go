@@ -57,32 +57,30 @@ func (ts *LandRenderingSystem) Update(dt float32) {
 		camera := entities.Cameras[0].Camera.Camera
 
 		// Draw
-
 		rl.BeginMode2D(*camera)
-
 		for _, entity := range entities.Land {
-			for i, _ := range entity.LandComponent.Data {
-				xOffset := float32(rl.GetScreenWidth())/2 - 5 + entity.TransformComponent.Position.X
-				yOffset := float32(rl.GetScreenHeight())/2 - 5 + entity.TransformComponent.Position.Y
-				rl.DrawTextureRec(
-					demoTexture,
-					rl.Rectangle{
-						X:      0,
-						Y:      0,
-						Width:  10,
-						Height: 10,
-					},
-					rl.Vector2{
-						X: xOffset + float32(i%entity.LandComponent.Width*10),
-						Y: yOffset + float32(i/entity.LandComponent.Width*10),
-					},
-					rl.White,
-				)
+			for i, value := range entity.LandComponent.Data {
+				if value != 0 {
+					xOffset := float32(rl.GetScreenWidth())/2 - 5 + entity.TransformComponent.Position.X
+					yOffset := float32(rl.GetScreenHeight())/2 - 5 + entity.TransformComponent.Position.Y
+					rl.DrawTextureRec(
+						demoTexture,
+						rl.Rectangle{
+							X:      0,
+							Y:      0,
+							Width:  10,
+							Height: 10,
+						},
+						rl.Vector2{
+							X: xOffset + float32(i%entity.LandComponent.Width*10),
+							Y: yOffset + float32(i/entity.LandComponent.Width*10),
+						},
+						rl.White,
+					)
+				}
 			}
 		}
-
 		rl.EndMode2D()
-
 	}
 }
 

@@ -10,12 +10,12 @@ type LandComponent struct {
 	Data          []int
 }
 
-func NewLandComponent(width, height int) *LandComponent {
+func NewLandComponent(width, height int, data []int) *LandComponent {
 	return &LandComponent{
 		BaseComponent: &ecs.BaseComponent{},
 		Width:         width,
 		Height:        height,
-		Data:          make([]int, width*height),
+		Data:          data,
 	}
 }
 
