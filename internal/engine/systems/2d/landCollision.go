@@ -62,16 +62,17 @@ func (ts *LandCollisionSystem) Update(dt float32) {
 			if collidablePosisionTopLeft.X > landPosition.X && collidablePosisionTopLeft.X < landPosition.X+float32(landWidth)*tileWidth {
 				if collidablePosisionTopLeft.Y > landPosition.Y && collidablePosisionTopLeft.Y < landPosition.Y+float32(landHeight)*tileWidth {
 
+					// Top Left Sprite Corner in chunk cords
 					localLandCordsTopLeft := rl.Vector2Subtract(collidablePosisionTopLeft, landPosition)
 					landXCollisionTopLeft := math.Floor(float64(localLandCordsTopLeft.X / tileWidth))
 					landYCollisionTopLeft := math.Floor(float64(localLandCordsTopLeft.Y / tileWidth))
 
+					// Bottom Right Sprite Corner in chunk cords
 					localLandCordsBottomRight := rl.Vector2Subtract(collidablePosisionBottomRight, landPosition)
 					landXCollisionBottomRight := math.Floor(float64(localLandCordsBottomRight.X / tileWidth))
 					landYCollisionBottomRight := math.Floor(float64(localLandCordsBottomRight.Y / tileWidth))
 
 					collisions := []rl.Vector2{}
-
 					for x := landXCollisionTopLeft; x <= landXCollisionBottomRight; x++ {
 						for y := landYCollisionTopLeft; y <= landYCollisionBottomRight; y++ {
 							// Make sure its in the chunk dataset
@@ -83,10 +84,15 @@ func (ts *LandCollisionSystem) Update(dt float32) {
 						}
 					}
 
+					// Draw Output
 					rl.DrawRectangle(10, 40, 240, 20, rl.Fade(rl.SkyBlue, 0.5))
 					rl.DrawRectangleLines(10, 40, 240, 20, rl.Blue)
 					rl.DrawText(fmt.Sprint(collisions), 10, 40, 20, rl.Black)
 
+					// Resolve Collisions
+					// for _, collision := range collisions {
+					// 	collidableEntity.Transformation.Position = rl.Vector2{0, 0}
+					// }
 				}
 			}
 		}

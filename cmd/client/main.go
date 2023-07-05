@@ -38,7 +38,9 @@ func main() {
 
 	// Add objects to world
 	wrld.AddEntity(objects2d.New2DPlayer(ecs.ID(uuid.New().String())))
+	wrld.AddEntity(objects2d.NewBlock2d(0, 0))
 
+	// Generate random land
 	chunkWidth := 5
 	chunkHeight := 5
 
@@ -69,7 +71,7 @@ func main() {
 
 	// GameLoop
 	for !rl.WindowShouldClose() {
-		delay := 1 / rl.GetFPS() * 1000
+		delay := float32(1 / (rl.GetFPS() + 1) * 1000)
 		if delay > 10000 {
 			wrld.UpdateSystems(0)
 		} else {

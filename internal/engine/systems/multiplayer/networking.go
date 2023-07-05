@@ -5,6 +5,7 @@ import (
 	"reflect"
 	"rouge/internal/ecs"
 	"rouge/internal/engine/components"
+	components2d "rouge/internal/engine/components/2d"
 	"rouge/internal/network"
 
 	"github.com/google/uuid"
@@ -75,6 +76,7 @@ func (ts *NetworkingSystem) Initilizer() {
 
 func init() {
 	network.RegisterType(ecs.BaseComponent{})
+	network.RegisterType(components2d.CollisionComponent{})
 	network.RegisterType(ecs.ID(uuid.Nil.String()))
 }
 
