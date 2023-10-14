@@ -31,7 +31,7 @@ func main() {
 	// Add objects to world
 	wrld.AddEntity(objects2d.New2DPlayer(ecs.ID(uuid.New().String())))
 	wrld.AddEntity(objects2d.NewBlock2d(0, 0))
-	wrld.AddEntity(objectsui.NewBoxUI())
+	wrld.AddEntity(objectsui.NewWindowUI(100, 100))
 
 	// GameLoop
 	for !rl.WindowShouldClose() {
