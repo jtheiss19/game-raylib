@@ -3,3 +3,6 @@ server:
 
 client:
 	go run cmd/client/main.go
+
+adventure:
+	go run cmd/standalone/*.go

@@ -1,32 +1,21 @@
 package systemsui
 
 import (
-	"fmt"
 	"rouge/internal/ecs"
 	componentsui "rouge/internal/engine/components/ui"
 
 	"github.com/sirupsen/logrus"
-
-	gui "github.com/gen2brain/raylib-go/raygui"
-	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
 var (
-	demoTexture         = rl.Texture2D{}
-	value       float32 = 0.4
+	value float32 = 0.4
 )
-
-func loadDemoTextures() {
-	demoTexture = rl.LoadTexture("assets/box/crate_1.jpg")
-
-}
 
 type UIRenderingSystem struct {
 	*ecs.BaseSystem
 }
 
 func NewUIRenderingSystem() *UIRenderingSystem {
-	loadDemoTextures()
 	return &UIRenderingSystem{
 		BaseSystem: &ecs.BaseSystem{},
 	}
@@ -38,7 +27,7 @@ type RequiredUIRenderingSystemComps struct {
 }
 
 type RequireUI struct {
-	UIComponent *componentsui.UIBoxComponent
+	UIComponent *componentsui.UIComponent
 }
 
 func (ts *UIRenderingSystem) GetRequiredComponents() interface{} {
@@ -56,22 +45,9 @@ func (ts *UIRenderingSystem) Update(dt float32) {
 	}
 
 	if len(entities.UI) > 0 {
-
-		for range entities.UI {
-			value = gui.SliderBar(rl.NewRectangle(50, 150, 100, 40), "Click", "clicker", value, 0, 1)
-			if value > 0.9 {
-				fmt.Println(value)
-			}
-			rl.DrawTextureEx(
-				demoTexture,
-				rl.Vector2{
-					X: 0,
-					Y: 0,
-				},
-				0,
-				0.5,
-				rl.White,
-			)
+		for _, uiElement := range entities.UI {
+			// Actual rendering happens in the DRAWFUNC of the UI comoponent which is set in the object creation func
+			uiElement.UIComponent.Draw()
 		}
 	}
 }

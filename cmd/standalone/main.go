@@ -4,7 +4,6 @@ import (
 	"rouge/internal/ecs"
 	"rouge/internal/engine"
 	objects2d "rouge/internal/engine/objects/2d"
-	objectsui "rouge/internal/engine/objects/ui"
 	systems2d "rouge/internal/engine/systems/2d"
 	systemsui "rouge/internal/engine/systems/ui"
 
@@ -31,7 +30,6 @@ func main() {
 	// Add objects to world
 	wrld.AddEntity(objects2d.New2DPlayer(ecs.ID(uuid.New().String())))
 	wrld.AddEntity(objects2d.NewBlock2d(0, 0))
-	wrld.AddEntity(objectsui.NewWindowUI(100, 100))
 
 	// GameLoop
 	for !rl.WindowShouldClose() {

@@ -2,14 +2,25 @@ package componentsui
 
 import (
 	"rouge/internal/ecs"
+
+	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-type UIBoxComponent struct {
+type UIComponent struct {
 	*ecs.BaseComponent
+	Position rl.Vector2
+	DrawFunc func(position rl.Vector2)
 }
 
-func NewUIBoxComponent() *UIBoxComponent {
-	return &UIBoxComponent{
+func NewUIComponent(position rl.Vector2) *UIComponent {
+	return &UIComponent{
 		BaseComponent: &ecs.BaseComponent{},
+		Position:      position,
+		DrawFunc: func(position rl.Vector2) {
+		},
 	}
+}
+
+func (bc *UIComponent) Draw() {
+	bc.DrawFunc(bc.Position)
 }

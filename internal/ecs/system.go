@@ -42,12 +42,15 @@ type BaseSystem struct {
 }
 
 // User Overrides
-func (bs *BaseSystem) Update(dt float32)                   {}
-func (bs *BaseSystem) Initilizer()                         {}
-func (ts *BaseSystem) GetRequiredComponents() interface{}  { return nil }
-func (bs *BaseSystem) setRequiredComponents(i interface{}) { bs.baseComponentsStruct = i }
+func (bs *BaseSystem) Update(dt float32)                  {}
+func (bs *BaseSystem) Initilizer()                        {}
+func (bs *BaseSystem) GetRequiredComponents() interface{} { return nil }
 
 // Boiler Plate
+func (bs *BaseSystem) setRequiredComponents(i interface{}) {
+	bs.baseComponentsStruct = i
+}
+
 func (bs *BaseSystem) getBaseComponents() [][]reflect.Type {
 	return bs.baseComponentsType
 }
@@ -93,7 +96,6 @@ func (bs *BaseSystem) addEntity(comps map[reflect.Type]Component) {
 	logrus.Trace("trying to add entity to system")
 
 	for reqStructTypeIndex, reqCompStruct := range bs.getBaseComponents() {
-
 		// Test if already exists
 		id := ID("")
 		for _, comp := range comps {
