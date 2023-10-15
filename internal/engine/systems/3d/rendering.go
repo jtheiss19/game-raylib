@@ -70,11 +70,5 @@ func (ts *RenderingSystem) Update(dt float32) {
 		}
 
 		rl.EndMode3D()
-
-		rl.DrawRectangle(10, 10, 220, 70, rl.Fade(rl.SkyBlue, 0.5))
-		rl.DrawRectangleLines(10, 10, 220, 70, rl.Blue)
-
-		rl.DrawFPS(10, 10)
-
 	}
 }
