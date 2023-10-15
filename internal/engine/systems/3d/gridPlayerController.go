@@ -43,7 +43,7 @@ func (ts *GridPlayerControllerSystem) GetRequiredComponents() interface{} {
 
 // Functionality
 func (ts *GridPlayerControllerSystem) Update(dt float32) {
-	entities, ok := ts.TrackedEntities.(*RequiredPlayerControllerComps)
+	entities, ok := ts.TrackedEntities.(*RequiredGridPlayerControllerComps)
 	if !ok {
 		logrus.Error("could not update system, bad tracked entities")
 		return
