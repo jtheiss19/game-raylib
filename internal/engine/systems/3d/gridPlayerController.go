@@ -1,6 +1,8 @@
 package systems3d
 
 import (
+	"fmt"
+	"math"
 	"rouge/internal/ecs"
 	"rouge/internal/engine/components"
 	components3d "rouge/internal/engine/components/3d"
@@ -41,8 +43,14 @@ func (ts *GridPlayerControllerSystem) GetRequiredComponents() interface{} {
 	}
 }
 
+var (
+	gridControllerFrameTime float32 = 0
+)
+
 // Functionality
 func (ts *GridPlayerControllerSystem) Update(dt float32) {
+	gridControllerFrameTime += dt
+
 	entities, ok := ts.TrackedEntities.(*RequiredGridPlayerControllerComps)
 	if !ok {
 		logrus.Error("could not update system, bad tracked entities")
@@ -76,31 +84,38 @@ func (ts *GridPlayerControllerSystem) Update(dt float32) {
 		// resolve movement
 		if keys[components.MOVE_FORWARD] {
 			movementVector.X += 1
-		}
-		if keys[components.MOVE_BACKWARDS] {
+		} else if keys[components.MOVE_BACKWARDS] {
 			movementVector.X -= 1
-		}
-		if keys[components.MOVE_RIGHT] {
+		} else if keys[components.MOVE_RIGHT] {
 			movementVector.Z += 1
-		}
-		if keys[components.MOVE_LEFT] {
+		} else if keys[components.MOVE_LEFT] {
 			movementVector.Z -= 1
 		}
 
 		// normalize 2D movement
 		movementVector = rl.Vector3Normalize(movementVector)
+		lookVector := rl.Vector3{}
 
 		forwardVec := mouseRay.Direction
-		rightVec := rl.Vector3CrossProduct(forwardVec, rl.Vector3{0, 1, 0})
 
-		forwardMovement := rl.Vector3Multiply(forwardVec, movementVector.X)
+		if math.Abs(float64(forwardVec.X)) < math.Abs(float64(forwardVec.Z)) {
+			lookVector.Z = float32(math.Abs(float64(forwardVec.Z)) / float64(forwardVec.Z))
+		} else {
+			lookVector.X = float32(math.Abs(float64(forwardVec.X)) / float64(forwardVec.X))
+		}
+		rightVec := rl.Vector3CrossProduct(lookVector, rl.Vector3{0, 1, 0})
+
+		forwardMovement := rl.Vector3Multiply(lookVector, movementVector.X)
 		rightMovement := rl.Vector3Multiply(rightVec, movementVector.Z)
 
 		totalMovement := rl.Vector3Add(forwardMovement, rightMovement)
 
-		player.Transformation.Position.X += rl.Vector3DotProduct(totalMovement, rl.Vector3{1, 0, 0}) * 0.25
-		player.Transformation.Position.Z += rl.Vector3DotProduct(totalMovement, rl.Vector3{0, 0, 1}) * 0.25
-
+		if gridControllerFrameTime > 1000 && rl.Vector3Length(totalMovement) > 0 {
+			fmt.Println("HERE")
+			player.Transformation.Position.X += totalMovement.X
+			player.Transformation.Position.Z += totalMovement.Z
+			gridControllerFrameTime = 0
+		}
 	}
 }
 

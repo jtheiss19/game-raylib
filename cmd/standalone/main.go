@@ -31,8 +31,12 @@ func main() {
 
 	// GameLoop
 	for !rl.WindowShouldClose() {
-		delay := float32(1 / (rl.GetFPS() + 1) * 1000)
+		delay := 1 / float32((rl.GetFPS())+1) * 1000
 		if delay > 10000 {
+			// The time between frames has gotten so high in ms the game
+			// needs to preform only inplace logic updates to help reduce
+			// the load. Rendering functions shouldn't run during this step
+			// for example
 			wrld.UpdateSystems(0)
 		} else {
 			wrld.UpdateSystems(delay)
