@@ -13,10 +13,10 @@ type Camera3DComponent struct {
 
 func NewCamera3DComponent() *Camera3DComponent {
 	camera := rl.Camera3D{}
-	camera.Position = rl.NewVector3(4.0, 2.0, 4.0)
-	camera.Target = rl.NewVector3(0.0, 1.8, 0.0)
-	camera.Up = rl.NewVector3(0.0, 1.0, 0.0)
-	camera.Fovy = 60.0
+	camera.Position = rl.NewVector3(0, 0, 0)
+	camera.Target = rl.NewVector3(1, 0, 0.0) //Left, Forwards,
+	camera.Up = rl.NewVector3(0, 1, 0)
+	camera.Fovy = 90
 	camera.Projection = rl.CameraPerspective
 
 	// rl.SetCameraMode(camera, rl.CameraFirstPerson)

@@ -22,6 +22,7 @@ func SetupScreen() {
 	screenHeight := int32(450)
 
 	rl.InitWindow(screenWidth, screenHeight, "game")
+	rl.DisableCursor()
 
 	rl.SetTargetFPS(60)
 }

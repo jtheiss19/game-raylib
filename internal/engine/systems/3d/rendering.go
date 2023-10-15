@@ -52,10 +52,13 @@ func (ts *RenderingSystem) GetRequiredComponents() interface{} {
 
 var (
 	demoModel = rl.Model{}
+	texture2D = rl.Texture2D{}
 )
 
 func LoadDefaults() {
 	demoModel = rl.LoadModel(`assets\box\Crate1.obj`)
+	texture2D = rl.LoadTexture(`assets\box\crate_1.jpg`)
+	demoModel.Materials.Maps.Texture = texture2D
 }
 
 // Functionality
@@ -71,8 +74,6 @@ func (ts *RenderingSystem) Update(dt float32) {
 		camera := entities.Camera[0].Camera.Camera
 
 		// Draw
-		rl.BeginDrawing()
-		rl.ClearBackground(rl.RayWhite)
 		rl.BeginMode3D(*camera)
 
 		for _, entity := range entities.Model {
@@ -86,26 +87,5 @@ func (ts *RenderingSystem) Update(dt float32) {
 
 		rl.DrawFPS(10, 10)
 
-		rl.EndDrawing()
-	}
-}
-
-var (
-	maxColumns = 5
-	heights    []float32
-	positions  []rl.Vector3
-	colors     []rl.Color
-)
-
-func (ts *RenderingSystem) Initilizer() {
-	// Generates some random columns
-	heights = make([]float32, maxColumns)
-	positions = make([]rl.Vector3, maxColumns)
-	colors = make([]rl.Color, maxColumns)
-
-	for i := 0; i < maxColumns; i++ {
-		heights[i] = float32(rl.GetRandomValue(1, 12))
-		positions[i] = rl.NewVector3(float32(rl.GetRandomValue(-15, 15)), heights[i]/2, float32(rl.GetRandomValue(-15, 15)))
-		colors[i] = rl.NewColor(uint8(rl.GetRandomValue(20, 255)), uint8(rl.GetRandomValue(10, 55)), 30, 255)
 	}
 }
