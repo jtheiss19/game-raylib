@@ -90,14 +90,8 @@ func (ts *ChunkRenderingSystem) Update(dt float32) {
 					)
 					transformMatrix := rl.MatrixMultiply(scaleMatrix, translateMatrix)
 					transformMatricies = append(transformMatricies, transformMatrix)
-					// rl.DrawMesh(
-					// 	*chunkData.ModelComp.Model.Meshes,
-					// 	*chunkData.ModelComp.Model.Materials,
-					// 	transformMatrix,
-					// )
 				}
 			}
-
 			rl.DrawMeshInstanced(
 				*chunkData.ModelComp.Model.Meshes,
 				*chunkData.ModelComp.Model.Materials,

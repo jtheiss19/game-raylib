@@ -9,6 +9,31 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
+type TextureType string
+
+const (
+	CRATE_TEX TextureType = `assets\box\crate.jpg`
+	GRASS_TEX TextureType = `assets\box\grass.jpg`
+)
+
+type ObjectType string
+
+const (
+	CRATE_OBJ TextureType = `assets\box\Crate.obj`
+)
+
+type FragmentShader string
+
+const (
+	INSTANCED_FRAG FragmentShader = `assets\box\lighting.fs`
+)
+
+type VertexShader string
+
+const (
+	INSTANCED_VERT VertexShader = `assets\box\lighting.fs`
+)
+
 type ModelLoadingSystem struct {
 	*ecs.BaseSystem
 
@@ -58,21 +83,12 @@ func (ts *ModelLoadingSystem) Update(dt float32) {
 			loadedTexture := rl.LoadTexture(modelData.ModelComp.TextureDataLocation)
 			loadedModel.Materials.Maps.Texture = loadedTexture
 
-			shader := rl.LoadShader(
-				`assets\box\lighting_instancing.vs`,
-				`assets\box\lighting.fs`,
-			)
+			shader := rl.LoadShader(string(INSTANCED_VERT), string(INSTANCED_FRAG))
 			shader.UpdateLocation(rl.LocMatrixMvp, rl.GetShaderLocation(shader, "mvp"))
 			shader.UpdateLocation(rl.LocVectorView, rl.GetShaderLocation(shader, "viewPos"))
 			shader.UpdateLocation(rl.LocMatrixModel, rl.GetShaderLocationAttrib(shader, "instanceTransform"))
 
-			ambientLoc := rl.GetShaderLocation(shader, "ambient")
-			rl.SetShaderValue(shader, ambientLoc, []float32{0.2, 0.2, 0.2, 1.0}, rl.ShaderUniformVec4)
-
 			loadedModel.Materials.Shader = shader
-
-			// materials := rl.LoadMaterials(`assets\box\crate.mtl`)
-			// loadedModel.Materials = &materials[0]
 
 			modelData.ModelComp.Model = loadedModel
 			modelData.ModelComp.LoadedModel = true

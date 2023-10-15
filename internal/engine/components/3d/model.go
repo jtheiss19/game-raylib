@@ -11,17 +11,21 @@ type Model3DComponent struct {
 	HashID              string
 	ModelDataLocation   string
 	TextureDataLocation string
+	FragmentShader      string
+	VertexShader        string
 	Model               rl.Model
 	LoadedModel         bool
 }
 
-func NewModel3DComponent(ModelDataLocation, TextureDataLocation string) *Model3DComponent {
+func NewModel3DComponent(ModelDataLocation, TextureDataLocation, FragmentShader, VertexShader string) *Model3DComponent {
 
 	return &Model3DComponent{
 		BaseComponent:       &ecs.BaseComponent{},
 		HashID:              ModelDataLocation + TextureDataLocation,
 		ModelDataLocation:   ModelDataLocation,
 		TextureDataLocation: TextureDataLocation,
+		FragmentShader:      FragmentShader,
+		VertexShader:        VertexShader,
 		Model:               rl.Model{},
 		LoadedModel:         false,
 	}
