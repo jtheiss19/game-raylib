@@ -1,7 +1,6 @@
 package systems3d
 
 import (
-	"fmt"
 	"math"
 	"rouge/internal/ecs"
 	"rouge/internal/engine/components"
@@ -110,8 +109,7 @@ func (ts *GridPlayerControllerSystem) Update(dt float32) {
 
 		totalMovement := rl.Vector3Add(forwardMovement, rightMovement)
 
-		if gridControllerFrameTime > 1000 && rl.Vector3Length(totalMovement) > 0 {
-			fmt.Println("HERE")
+		if gridControllerFrameTime > 300 && rl.Vector3Length(totalMovement) > 0 {
 			player.Transformation.Position.X += totalMovement.X
 			player.Transformation.Position.Z += totalMovement.Z
 			gridControllerFrameTime = 0

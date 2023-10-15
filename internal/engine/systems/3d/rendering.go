@@ -15,8 +15,6 @@ type RenderingSystem struct {
 }
 
 func NewRenderingSystem() *RenderingSystem {
-	LoadDefaults()
-
 	return &RenderingSystem{
 		BaseSystem: &ecs.BaseSystem{},
 	}
@@ -24,12 +22,13 @@ func NewRenderingSystem() *RenderingSystem {
 
 // Comps
 type RequiredRenderingSystemComps struct {
-	Model  []*RequireModel
+	Model  []*Require3DModel
 	Camera []*RequireCamera
 }
 
-type RequireModel struct {
+type Require3DModel struct {
 	Transformation *components3d.Transformation3DComponent
+	ModelComp      *components3d.Model3DComponent
 }
 
 type RequireCamera struct {
@@ -40,25 +39,15 @@ type RequireCamera struct {
 
 func (ts *RenderingSystem) GetRequiredComponents() interface{} {
 	return &RequiredRenderingSystemComps{
-		Model: []*RequireModel{{
+		Model: []*Require3DModel{{
 			Transformation: &components3d.Transformation3DComponent{},
+			ModelComp:      &components3d.Model3DComponent{},
 		}},
 		Camera: []*RequireCamera{{
 			Camera:         &components3d.Camera3DComponent{},
 			Transformation: &components3d.Transformation3DComponent{},
 		}},
 	}
-}
-
-var (
-	demoModel = rl.Model{}
-	texture2D = rl.Texture2D{}
-)
-
-func LoadDefaults() {
-	demoModel = rl.LoadModel(`assets\box\Crate1.obj`)
-	texture2D = rl.LoadTexture(`assets\box\crate_1.jpg`)
-	demoModel.Materials.Maps.Texture = texture2D
 }
 
 // Functionality
@@ -77,7 +66,7 @@ func (ts *RenderingSystem) Update(dt float32) {
 		rl.BeginMode3D(*camera)
 
 		for _, entity := range entities.Model {
-			rl.DrawModel(demoModel, entity.Transformation.Position, entity.Transformation.Scale.X, rl.White)
+			rl.DrawModel(entity.ModelComp.Model, entity.Transformation.Position, entity.Transformation.Scale.X, rl.White)
 		}
 
 		rl.EndMode3D()

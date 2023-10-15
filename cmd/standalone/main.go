@@ -24,10 +24,14 @@ func main() {
 	wrld.AddSystem(gridRenderer)
 	pcs := systems3d.NewGridPlayerControllerSystem()
 	wrld.AddSystem(pcs)
+	modelManager := systems3d.NewModelLoadingSystem()
+	wrld.AddSystem(modelManager)
 
 	// Add objects to world
-	wrld.AddEntity(objects3d.New3DPlayer(ecs.ID(uuid.New().String())))
-	wrld.AddEntity(objects3d.NewGridBlock3d(10, 0, 0))
+	wrld.AddEntity(objects3d.New3DPlayer(ecs.ID(uuid.New().String()), 0, 1, 0))
+	wrld.AddEntity(objects3d.NewGridBlock3d(5, 1, -1, objects3d.CRATE))
+	wrld.AddEntity(objects3d.NewGridBlock3d(5, 1, 0, objects3d.CRATE))
+	wrld.AddEntity(objects3d.NewGridBlock3d(5, 1, 1, objects3d.GRASS))
 
 	// GameLoop
 	for !rl.WindowShouldClose() {

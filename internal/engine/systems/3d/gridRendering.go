@@ -15,7 +15,6 @@ type GridRenderingSystem struct {
 }
 
 func NewGridRenderingSystem() *GridRenderingSystem {
-	LoadGridDefaults()
 
 	return &GridRenderingSystem{
 		BaseSystem: &ecs.BaseSystem{},
@@ -30,6 +29,7 @@ type RequiredGridRenderingSystemComps struct {
 
 type RequireGridModel struct {
 	Transformation *components3d.GridTransformation3DComponent
+	ModelComp      *components3d.Model3DComponent
 }
 
 type RequireGridCamera struct {
@@ -42,23 +42,13 @@ func (ts *GridRenderingSystem) GetRequiredComponents() interface{} {
 	return &RequiredGridRenderingSystemComps{
 		Model: []*RequireGridModel{{
 			Transformation: &components3d.GridTransformation3DComponent{},
+			ModelComp:      &components3d.Model3DComponent{},
 		}},
 		Camera: []*RequireGridCamera{{
 			Camera:         &components3d.Camera3DComponent{},
 			Transformation: &components3d.Transformation3DComponent{},
 		}},
 	}
-}
-
-var (
-	demoGridModel = rl.Model{}
-	textureGrid2D = rl.Texture2D{}
-)
-
-func LoadGridDefaults() {
-	demoGridModel = rl.LoadModel(`assets\box\Crate1.obj`)
-	textureGrid2D = rl.LoadTexture(`assets\box\crate_1.jpg`)
-	demoGridModel.Materials.Maps.Texture = textureGrid2D
 }
 
 // Functionality
@@ -77,8 +67,10 @@ func (ts *GridRenderingSystem) Update(dt float32) {
 		rl.BeginMode3D(*camera)
 
 		for _, entity := range entities.Model {
-			rl.DrawModel(demoGridModel, entity.Transformation.Position, entity.Transformation.Scale.X, rl.White)
+			rl.DrawModel(entity.ModelComp.Model, entity.Transformation.Position, entity.Transformation.Scale.X, rl.White)
 		}
+
+		rl.DrawGrid(100, 2)
 
 		rl.EndMode3D()
 
