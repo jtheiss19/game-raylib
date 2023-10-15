@@ -22,7 +22,7 @@ func main() {
 	// Create and add systems
 	gridRenderer := systems3d.NewGridRenderingSystem()
 	wrld.AddSystem(gridRenderer)
-	pcs := systems3d.NewPlayerControllerSystem()
+	pcs := systems3d.NewGridPlayerControllerSystem()
 	wrld.AddSystem(pcs)
 
 	// Add objects to world
