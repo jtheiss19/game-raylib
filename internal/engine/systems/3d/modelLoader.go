@@ -86,11 +86,13 @@ func (ts *ModelLoadingSystem) Update(dt float32) {
 			loadedModel.Materials.Maps.Texture = loadedTexture
 
 			// Load Shader
-			shader := rl.LoadShader(modelData.ModelComp.VertexShader, modelData.ModelComp.FragmentShader)
-			shader.UpdateLocation(rl.LocMatrixMvp, rl.GetShaderLocation(shader, "mvp"))
-			shader.UpdateLocation(rl.LocVectorView, rl.GetShaderLocation(shader, "viewPos"))
-			shader.UpdateLocation(rl.LocMatrixModel, rl.GetShaderLocationAttrib(shader, "instanceTransform"))
-			loadedModel.Materials.Shader = shader
+			if modelData.ModelComp.VertexShader != "" && modelData.ModelComp.FragmentShader != "" {
+				shader := rl.LoadShader(modelData.ModelComp.VertexShader, modelData.ModelComp.FragmentShader)
+				shader.UpdateLocation(rl.LocMatrixMvp, rl.GetShaderLocation(shader, "mvp"))
+				shader.UpdateLocation(rl.LocVectorView, rl.GetShaderLocation(shader, "viewPos"))
+				shader.UpdateLocation(rl.LocMatrixModel, rl.GetShaderLocationAttrib(shader, "instanceTransform"))
+				loadedModel.Materials.Shader = shader
+			}
 
 			// Create Records
 			modelData.ModelComp.Model = loadedModel

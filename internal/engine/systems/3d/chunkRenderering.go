@@ -27,7 +27,7 @@ type RequiredChunkRenderingSystemComps struct {
 }
 
 type RequireChunkData struct {
-	TransformationComp *components3d.Transformation3DComponent
+	TransformationComp *components3d.ChunkTransformation3DComponent
 	ModelComp          *components3d.Model3DComponent
 	Chunk3DComp        *components3d.Chunk3DComponent
 }
@@ -41,7 +41,7 @@ type RequireChunkCameraData struct {
 func (ts *ChunkRenderingSystem) GetRequiredComponents() interface{} {
 	return &RequiredChunkRenderingSystemComps{
 		Chunk: []*RequireChunkData{{
-			TransformationComp: &components3d.Transformation3DComponent{},
+			TransformationComp: &components3d.ChunkTransformation3DComponent{},
 			ModelComp:          &components3d.Model3DComponent{},
 			Chunk3DComp:        &components3d.Chunk3DComponent{},
 		}},
