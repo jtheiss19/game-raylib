@@ -11,6 +11,7 @@ import (
 func NewChunk(x, y, z float32) []ecs.Component {
 	TransformationComponent := components3d.NewTransformation3DComponent()
 	TransformationComponent.Position = rl.NewVector3(x, y, z)
+	TransformationComponent.Scale.X = 0.5
 	NetworkComponent := components.NewNetworkComponent()
 	ModelComponent := components3d.NewModel3DComponent(`assets\box\Crate.obj`, string(CRATE))
 

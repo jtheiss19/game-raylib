@@ -34,7 +34,7 @@ func main() {
 	wrld.AddEntity(objects3d.NewBlock3d(5, 1, -1, objects3d.CRATE))
 	wrld.AddEntity(objects3d.NewBlock3d(5, 1, 0, objects3d.CRATE))
 	wrld.AddEntity(objects3d.NewBlock3d(5, 1, 1, objects3d.GRASS))
-	wrld.AddEntity(objects3d.NewChunk(0, 0, 0))
+	wrld.AddEntity(objects3d.NewChunk(0, 1, 0))
 
 	// GameLoop
 	for !rl.WindowShouldClose() {
