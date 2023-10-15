@@ -27,7 +27,7 @@ type RequiredChunkRenderingSystemComps struct {
 }
 
 type RequireChunkData struct {
-	TransformationComp *components3d.GridTransformation3DComponent
+	TransformationComp *components3d.Transformation3DComponent
 	ModelComp          *components3d.Model3DComponent
 	Chunk3DComp        *components3d.Chunk3DComponent
 }
@@ -41,7 +41,7 @@ type RequireChunkCameraData struct {
 func (ts *ChunkRenderingSystem) GetRequiredComponents() interface{} {
 	return &RequiredChunkRenderingSystemComps{
 		Chunk: []*RequireChunkData{{
-			TransformationComp: &components3d.GridTransformation3DComponent{},
+			TransformationComp: &components3d.Transformation3DComponent{},
 			ModelComp:          &components3d.Model3DComponent{},
 			Chunk3DComp:        &components3d.Chunk3DComponent{},
 		}},
@@ -69,11 +69,41 @@ func (ts *ChunkRenderingSystem) Update(dt float32) {
 		rl.BeginMode3D(*camera)
 
 		for _, chunkData := range entities.Chunk {
+			// Skip if model isn't loaded yet
+			if chunkData.ModelComp.Model.Meshes == nil {
+				continue
+			}
+
+			// Render Mesh
+			transformMatricies := []rl.Matrix{}
 			for _, chunkType := range chunkData.Chunk3DComp.Data {
-				if chunkType == 1 {
-					rl.DrawModel(chunkData.ModelComp.Model, chunkData.TransformationComp.Position, chunkData.TransformationComp.Scale.X, rl.White)
+				if chunkType.BlockType == 1 {
+					scaleMatrix := rl.MatrixScale(
+						chunkData.TransformationComp.Scale.X,
+						chunkData.TransformationComp.Scale.Y,
+						chunkData.TransformationComp.Scale.Z,
+					)
+					translateMatrix := rl.MatrixTranslate(
+						chunkData.TransformationComp.Position.X+chunkType.RelativePosition.X,
+						chunkData.TransformationComp.Position.Y+chunkType.RelativePosition.Y,
+						chunkData.TransformationComp.Position.Z+chunkType.RelativePosition.Z,
+					)
+					transformMatrix := rl.MatrixMultiply(scaleMatrix, translateMatrix)
+					transformMatricies = append(transformMatricies, transformMatrix)
+					// rl.DrawMesh(
+					// 	*chunkData.ModelComp.Model.Meshes,
+					// 	*chunkData.ModelComp.Model.Materials,
+					// 	transformMatrix,
+					// )
 				}
 			}
+
+			rl.DrawMeshInstanced(
+				*chunkData.ModelComp.Model.Meshes,
+				*chunkData.ModelComp.Model.Materials,
+				transformMatricies,
+				len(transformMatricies),
+			)
 		}
 
 		rl.DrawGrid(100, 2)

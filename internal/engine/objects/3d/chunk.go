@@ -12,19 +12,24 @@ func NewChunk(x, y, z float32) []ecs.Component {
 	TransformationComponent := components3d.NewTransformation3DComponent()
 	TransformationComponent.Position = rl.NewVector3(x, y, z)
 	TransformationComponent.Scale.X = 0.5
+	TransformationComponent.Scale.Y = 0.5
+	TransformationComponent.Scale.Z = 0.5
 	NetworkComponent := components.NewNetworkComponent()
 	ModelComponent := components3d.NewModel3DComponent(`assets\box\Crate.obj`, string(CRATE))
 
 	length := 10
 	width := 10
-	data := make([]int, length*width)
-	for i := 0; i < length; i++ {
-		for x := 0; x < width; x++ {
-			if i == 0 {
-				data[i*length+x] = 1
-			} else {
-				data[i*length+x] = 0
-			}
+	data := []components3d.Block{}
+	for x := 0; x < length; x++ {
+		for z := 0; z < width; z++ {
+			data = append(data, components3d.Block{
+				RelativePosition: rl.Vector3{
+					X: float32(x),
+					Y: 0,
+					Z: float32(z),
+				},
+				BlockType: 1,
+			})
 		}
 	}
 	ChunkComponent := components3d.NewChunk3DComponent(10, 10, data)

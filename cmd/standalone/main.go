@@ -22,8 +22,8 @@ func main() {
 	// Create and add systems
 	chunkRenderer := systems3d.NewChunkRenderingSystem()
 	wrld.AddSystem(chunkRenderer)
-	Renderer := systems3d.NewRenderingSystem()
-	wrld.AddSystem(Renderer)
+	// Renderer := systems3d.NewRenderingSystem()
+	// wrld.AddSystem(Renderer)
 	pcs := systems3d.NewGridPlayerControllerSystem()
 	wrld.AddSystem(pcs)
 	modelManager := systems3d.NewModelLoadingSystem()

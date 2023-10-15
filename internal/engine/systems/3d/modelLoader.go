@@ -54,11 +54,28 @@ func (ts *ModelLoadingSystem) Update(dt float32) {
 		loadedMapModel, ok := ts.loadedModels[modelData.ModelComp.HashID]
 		if !ok { // Model Not loaded yet, load from disk
 			loadedModel := rl.LoadModel(modelData.ModelComp.ModelDataLocation)
+
 			loadedTexture := rl.LoadTexture(modelData.ModelComp.TextureDataLocation)
 			loadedModel.Materials.Maps.Texture = loadedTexture
+
+			shader := rl.LoadShader(
+				`assets\box\lighting_instancing.vs`,
+				`assets\box\lighting.fs`,
+			)
+			shader.UpdateLocation(rl.LocMatrixMvp, rl.GetShaderLocation(shader, "mvp"))
+			shader.UpdateLocation(rl.LocVectorView, rl.GetShaderLocation(shader, "viewPos"))
+			shader.UpdateLocation(rl.LocMatrixModel, rl.GetShaderLocationAttrib(shader, "instanceTransform"))
+
+			ambientLoc := rl.GetShaderLocation(shader, "ambient")
+			rl.SetShaderValue(shader, ambientLoc, []float32{0.2, 0.2, 0.2, 1.0}, rl.ShaderUniformVec4)
+
+			loadedModel.Materials.Shader = shader
+
+			// materials := rl.LoadMaterials(`assets\box\crate.mtl`)
+			// loadedModel.Materials = &materials[0]
+
 			modelData.ModelComp.Model = loadedModel
 			modelData.ModelComp.LoadedModel = true
-
 			ts.loadedModels[modelData.ModelComp.HashID] = &loadedModel
 		} else if !modelData.ModelComp.LoadedModel { // Model already loaded in map but not set on component
 			modelData.ModelComp.Model = *loadedMapModel
