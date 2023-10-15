@@ -1,8 +1,8 @@
 package objects2d
 
 import (
-	"rouge/internal/ecs"
-	components2d "rouge/internal/engine/components/2d"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	components2d "github.com/jtheiss19/game-raylib/internal/engine/components/2d"
 )
 
 func NewLand(width, height int, positionX, positionY float32, data []int) []ecs.Component {

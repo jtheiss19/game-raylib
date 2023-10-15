@@ -1,6 +1,6 @@
 package components3d
 
-import "rouge/internal/network"
+import "github.com/jtheiss19/game-raylib/internal/network"
 
 func init() {
 	network.RegisterType(Camera3DComponent{})

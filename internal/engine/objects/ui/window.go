@@ -1,8 +1,8 @@
 package objectsui
 
 import (
-	"rouge/internal/ecs"
-	componentsui "rouge/internal/engine/components/ui"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	componentsui "github.com/jtheiss19/game-raylib/internal/engine/components/ui"
 
 	gui "github.com/gen2brain/raylib-go/raygui"
 

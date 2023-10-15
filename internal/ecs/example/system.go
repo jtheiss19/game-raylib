@@ -1,7 +1,7 @@
 package example
 
 import (
-	"rouge/internal/ecs"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
 
 	"github.com/sirupsen/logrus"
 )

@@ -3,8 +3,9 @@ package systems2d
 import (
 	"fmt"
 	"math"
-	"rouge/internal/ecs"
-	components2d "rouge/internal/engine/components/2d"
+
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	components2d "github.com/jtheiss19/game-raylib/internal/engine/components/2d"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
 

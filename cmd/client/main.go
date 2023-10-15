@@ -2,11 +2,12 @@ package main
 
 import (
 	"math/rand"
-	"rouge/internal/ecs"
-	"rouge/internal/engine"
-	objects2d "rouge/internal/engine/objects/2d"
-	systems2d "rouge/internal/engine/systems/2d"
 	"time"
+
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	"github.com/jtheiss19/game-raylib/internal/engine"
+	objects2d "github.com/jtheiss19/game-raylib/internal/engine/objects/2d"
+	systems2d "github.com/jtheiss19/game-raylib/internal/engine/systems/2d"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
 	"github.com/google/uuid"

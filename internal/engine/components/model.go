@@ -1,7 +1,7 @@
 package components
 
 import (
-	"rouge/internal/ecs"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
 )
 
 type ModelComponent struct {

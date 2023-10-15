@@ -2,9 +2,10 @@ package multiplayer
 
 import (
 	"encoding/gob"
-	"rouge/internal/ecs"
-	"rouge/internal/engine/components"
-	"rouge/internal/network"
+
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	"github.com/jtheiss19/game-raylib/internal/engine/components"
+	"github.com/jtheiss19/game-raylib/internal/network"
 
 	"github.com/sirupsen/logrus"
 )

@@ -1,9 +1,9 @@
 package objects3d
 
 import (
-	"rouge/internal/ecs"
-	"rouge/internal/engine/components"
-	components3d "rouge/internal/engine/components/3d"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	"github.com/jtheiss19/game-raylib/internal/engine/components"
+	components3d "github.com/jtheiss19/game-raylib/internal/engine/components/3d"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
 )

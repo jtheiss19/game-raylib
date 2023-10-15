@@ -1,7 +1,7 @@
 package components2d
 
 import (
-	"rouge/internal/ecs"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
 )
 
 type LandComponent struct {

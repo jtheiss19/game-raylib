@@ -1,7 +1,7 @@
 package components
 
 import (
-	"rouge/internal/network"
+	"github.com/jtheiss19/game-raylib/internal/network"
 )
 
 func init() {

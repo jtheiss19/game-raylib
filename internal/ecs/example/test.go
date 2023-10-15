@@ -1,6 +1,6 @@
 package example
 
-import "rouge/internal/ecs"
+import "github.com/jtheiss19/game-raylib/internal/ecs"
 
 type ExampleStruct struct {
 	*ecs.BaseComponent

@@ -1,11 +1,11 @@
 package main
 
 import (
-	"rouge/internal/ecs"
-	"rouge/internal/engine"
-	objects3d "rouge/internal/engine/objects/3d"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	"github.com/jtheiss19/game-raylib/internal/engine"
+	objects3d "github.com/jtheiss19/game-raylib/internal/engine/objects/3d"
 
-	systems3d "rouge/internal/engine/systems/3d"
+	systems3d "github.com/jtheiss19/game-raylib/internal/engine/systems/3d"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
 	"github.com/google/uuid"

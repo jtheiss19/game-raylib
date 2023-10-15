@@ -1,8 +1,8 @@
 package systems3d
 
 import (
-	"rouge/internal/ecs"
-	components3d "rouge/internal/engine/components/3d"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	components3d "github.com/jtheiss19/game-raylib/internal/engine/components/3d"
 
 	"github.com/sirupsen/logrus"
 

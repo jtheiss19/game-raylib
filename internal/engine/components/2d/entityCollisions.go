@@ -1,6 +1,6 @@
 package components2d
 
-import "rouge/internal/ecs"
+import "github.com/jtheiss19/game-raylib/internal/ecs"
 
 type CollisionComponent struct {
 	*ecs.BaseComponent

@@ -1,4 +1,4 @@
-module rouge
+module github.com/jtheiss19/game-raylib
 
 go 1.17
 

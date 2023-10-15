@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"rouge/internal/ecs"
-	objects2d "rouge/internal/engine/objects/2d"
-	"rouge/internal/engine/systems/multiplayer"
 	"time"
+
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	objects2d "github.com/jtheiss19/game-raylib/internal/engine/objects/2d"
+	"github.com/jtheiss19/game-raylib/internal/engine/systems/multiplayer"
 )
 
 func main() {

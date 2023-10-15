@@ -2,9 +2,10 @@ package multiplayer
 
 import (
 	"encoding/gob"
-	"rouge/internal/ecs"
-	objects2d "rouge/internal/engine/objects/2d"
-	"rouge/internal/network"
+
+	"github.com/jtheiss19/game-raylib/internal/ecs"
+	objects2d "github.com/jtheiss19/game-raylib/internal/engine/objects/2d"
+	"github.com/jtheiss19/game-raylib/internal/network"
 
 	"github.com/google/uuid"
 	"github.com/sirupsen/logrus"

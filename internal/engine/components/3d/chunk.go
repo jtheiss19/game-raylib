@@ -1,7 +1,7 @@
 package components3d
 
 import (
-	"rouge/internal/ecs"
+	"github.com/jtheiss19/game-raylib/internal/ecs"
 )
 
 type Chunk3DComponent struct {
