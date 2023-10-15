@@ -15,7 +15,6 @@ type ChunkRenderingSystem struct {
 }
 
 func NewChunkRenderingSystem() *ChunkRenderingSystem {
-
 	return &ChunkRenderingSystem{
 		BaseSystem: &ecs.BaseSystem{},
 	}

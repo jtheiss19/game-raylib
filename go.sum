@@ -3,6 +3,7 @@ github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c
 github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/gen2brain/raylib-go/raygui v0.0.0-20230621111137-9def9b04c9ec h1:OYW1vTnTRe83+Vrftc6Dt7SptRTbZ2fdKS34hPQZ0NQ=
 github.com/gen2brain/raylib-go/raygui v0.0.0-20230621111137-9def9b04c9ec/go.mod h1:uYchFLZ2wwfI+gRV8i0qHk6DKk5ZL/6VNrY/Nmzw5Ps=
+github.com/gen2brain/raylib-go/raylib v0.0.0-20230621091943-a6644da2433f/go.mod h1:AwtGA3aTtYdezNxEVbfchaLw/z+CuRDh2Mlxy0FbBro=
 github.com/gen2brain/raylib-go/raylib v0.0.0-20230621111137-9def9b04c9ec h1:ynbLvQTItXjR85HdofgD+Cjc4n9tbXAD8ezSmY9tUe0=
 github.com/gen2brain/raylib-go/raylib v0.0.0-20230621111137-9def9b04c9ec/go.mod h1:AwtGA3aTtYdezNxEVbfchaLw/z+CuRDh2Mlxy0FbBro=
 github.com/google/uuid v1.3.0 h1:t6JiXgmwXMjEs8VusXIJk2BXHsn+wx8BZdTaoZ5fu7I=
