@@ -21,7 +21,7 @@ func NewModel3DComponent(ModelDataLocation, TextureDataLocation, FragmentShader,
 
 	return &Model3DComponent{
 		BaseComponent:       &ecs.BaseComponent{},
-		HashID:              ModelDataLocation + TextureDataLocation,
+		HashID:              ModelDataLocation + TextureDataLocation + FragmentShader + VertexShader,
 		ModelDataLocation:   ModelDataLocation,
 		TextureDataLocation: TextureDataLocation,
 		FragmentShader:      FragmentShader,

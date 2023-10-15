@@ -31,7 +31,7 @@ const (
 type VertexShader string
 
 const (
-	INSTANCED_VERT VertexShader = `assets\box\lighting.fs`
+	INSTANCED_VERT VertexShader = `assets\box\lighting_instancing.vs`
 )
 
 type ModelLoadingSystem struct {
@@ -78,18 +78,21 @@ func (ts *ModelLoadingSystem) Update(dt float32) {
 		}
 		loadedMapModel, ok := ts.loadedModels[modelData.ModelComp.HashID]
 		if !ok { // Model Not loaded yet, load from disk
+			// Load Model
 			loadedModel := rl.LoadModel(modelData.ModelComp.ModelDataLocation)
 
+			// Load Texture
 			loadedTexture := rl.LoadTexture(modelData.ModelComp.TextureDataLocation)
 			loadedModel.Materials.Maps.Texture = loadedTexture
 
-			shader := rl.LoadShader(string(INSTANCED_VERT), string(INSTANCED_FRAG))
+			// Load Shader
+			shader := rl.LoadShader(modelData.ModelComp.VertexShader, modelData.ModelComp.FragmentShader)
 			shader.UpdateLocation(rl.LocMatrixMvp, rl.GetShaderLocation(shader, "mvp"))
 			shader.UpdateLocation(rl.LocVectorView, rl.GetShaderLocation(shader, "viewPos"))
 			shader.UpdateLocation(rl.LocMatrixModel, rl.GetShaderLocationAttrib(shader, "instanceTransform"))
-
 			loadedModel.Materials.Shader = shader
 
+			// Create Records
 			modelData.ModelComp.Model = loadedModel
 			modelData.ModelComp.LoadedModel = true
 			ts.loadedModels[modelData.ModelComp.HashID] = &loadedModel
