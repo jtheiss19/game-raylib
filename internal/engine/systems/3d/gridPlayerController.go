@@ -61,7 +61,7 @@ func (ts *GridPlayerControllerSystem) Update(dt float32) {
 		// Mouse movement
 		camera := player.Camera.Camera
 
-		screenSize := rl.Vector2{float32(rl.GetScreenWidth()) / 2, float32(rl.GetScreenHeight()) / 2}
+		screenSize := rl.Vector2{X: float32(rl.GetScreenWidth()) / 2, Y: float32(rl.GetScreenHeight()) / 2}
 		mousePosVec := rl.Vector2Add(rl.GetMouseDelta(), screenSize)
 		mouseRay := rl.GetMouseRay(mousePosVec, *camera)
 
@@ -103,7 +103,7 @@ func (ts *GridPlayerControllerSystem) Update(dt float32) {
 		} else {
 			lookVector.X = float32(math.Abs(float64(forwardVec.X)) / float64(forwardVec.X))
 		}
-		rightVec := rl.Vector3CrossProduct(lookVector, rl.Vector3{0, 1, 0})
+		rightVec := rl.Vector3CrossProduct(lookVector, rl.Vector3{X: 0, Y: 1, Z: 0})
 
 		forwardMovement := rl.Vector3Multiply(lookVector, movementVector.X)
 		rightMovement := rl.Vector3Multiply(rightVec, movementVector.Z)

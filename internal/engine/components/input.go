@@ -13,6 +13,8 @@ const (
 	MOVE_LEFT      Keybindings = rl.KeyA
 	MOVE_BACKWARDS Keybindings = rl.KeyS
 	MOVE_RIGHT     Keybindings = rl.KeyD
+	MOVE_UP        Keybindings = rl.KeySpace
+	MOVE_DOWN      Keybindings = rl.KeyLeftControl
 )
 
 type KeyState bool
@@ -33,6 +35,8 @@ func NewInputComponent() *InputComponent {
 		MOVE_LEFT:      KEY_UP,
 		MOVE_BACKWARDS: KEY_UP,
 		MOVE_RIGHT:     KEY_UP,
+		MOVE_UP:        KEY_UP,
+		MOVE_DOWN:      KEY_UP,
 	}
 
 	return &InputComponent{

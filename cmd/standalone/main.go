@@ -25,7 +25,7 @@ func main() {
 	wrld.AddSystem(chunkRenderer)
 	Renderer := systems3d.NewRenderingSystem()
 	wrld.AddSystem(Renderer)
-	pcs := systems3d.NewGridPlayerControllerSystem()
+	pcs := systems3d.NewPlayerControllerSystem()
 	wrld.AddSystem(pcs)
 	modelManager := systems3d.NewModelLoadingSystem()
 	wrld.AddSystem(modelManager)
