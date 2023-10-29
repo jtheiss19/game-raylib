@@ -12,11 +12,14 @@ import (
 
 type PlayerControllerSystem struct {
 	*ecs.BaseSystem
+
+	PlayerSpeed float32
 }
 
 func NewPlayerControllerSystem() *PlayerControllerSystem {
 	return &PlayerControllerSystem{
-		BaseSystem: &ecs.BaseSystem{},
+		BaseSystem:  &ecs.BaseSystem{},
+		PlayerSpeed: 0.15,
 	}
 }
 
@@ -107,9 +110,9 @@ func (ts *PlayerControllerSystem) Update(dt float32) {
 
 		totalMovement := rl.Vector3Add(rl.Vector3Add(forwardMovement, rightMovement), upMovement)
 
-		player.Transformation.Position.X += rl.Vector3DotProduct(totalMovement, rl.Vector3{X: 1, Y: 0, Z: 0}) * 0.25
-		player.Transformation.Position.Z += rl.Vector3DotProduct(totalMovement, rl.Vector3{X: 0, Y: 0, Z: 1}) * 0.25
-		player.Transformation.Position.Y += rl.Vector3DotProduct(totalMovement, rl.Vector3{X: 0, Y: 1, Z: 0}) * 0.25
+		player.Transformation.Position.X += rl.Vector3DotProduct(totalMovement, rl.Vector3{X: 1, Y: 0, Z: 0}) * ts.PlayerSpeed
+		player.Transformation.Position.Z += rl.Vector3DotProduct(totalMovement, rl.Vector3{X: 0, Y: 0, Z: 1}) * ts.PlayerSpeed
+		player.Transformation.Position.Y += rl.Vector3DotProduct(totalMovement, rl.Vector3{X: 0, Y: 1, Z: 0}) * ts.PlayerSpeed
 
 	}
 }
