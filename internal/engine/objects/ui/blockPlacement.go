@@ -3,25 +3,44 @@ package objectsui
 import (
 	"github.com/jtheiss19/game-raylib/internal/ecs"
 	componentsui "github.com/jtheiss19/game-raylib/internal/engine/components/ui"
+	systems3d "github.com/jtheiss19/game-raylib/internal/engine/systems/3d"
 
 	gui "github.com/gen2brain/raylib-go/raygui"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-func NewBlockPlacementUI(positionX, positionY float32) []ecs.Component {
+func NewBlockPlacementUI(positionX, positionY float32, system *systems3d.PlayerControllerSystem) []ecs.Component {
 	// Acutal Window
 	windowComponent := componentsui.NewUIWindowComponent(rl.NewVector2(0, 0))
 
 	// Action Components
 	List := componentsui.NewUIListComponent(rl.NewVector2(20, 40), []string{
-		"Grass",
+		"Craked Earth",
+		"Ice",
+		"Cobble",
 		"Sand",
-		"Brick",
-		"Floor",
-		"Water",
+		"Ice",
+		"Lava",
+		"Snow",
 		"Tile",
-		"Stone",
+		"Carred Earth",
+		"Long Brick",
+		"Short Brick",
+		"Thick Brick",
+		"Miasma",
+		"Dark Wood",
+		"Fire Pit",
+		"Dirt",
+		"Mosaic Tile White",
+		"Ice Sheet",
+		"Dark Cobble",
+		"Mosaic Tile Blue",
+		"Grass",
+		"Light Wood",
+		"Cloth",
+		"Fabric",
+		"Clay Brick",
 	})
 
 	// UI Rendering Abstraction
@@ -36,6 +55,10 @@ func NewBlockPlacementUI(positionX, positionY float32) []ecs.Component {
 			// List
 			List.ActiveOptionIndex = gui.ListView(List.GetPosition(position), List.Values, List.ScrollIndex, List.ActiveOptionIndex)
 		}
+	}
+
+	uiComponent.UpdateFunc = func() {
+		system.BlockPlacementTextureIndex = int(List.ActiveOptionIndex) + 1
 	}
 
 	return []ecs.Component{

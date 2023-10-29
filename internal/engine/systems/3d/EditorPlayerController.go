@@ -16,9 +16,10 @@ import (
 type PlayerControllerSystem struct {
 	*ecs.BaseSystem
 
-	PlayerSpeed      float32
-	toggleCD         float32
-	toggleThreshhold float32
+	PlayerSpeed                float32
+	BlockPlacementTextureIndex int
+	toggleCD                   float32
+	toggleThreshhold           float32
 }
 
 func NewPlayerControllerSystem() *PlayerControllerSystem {
@@ -71,13 +72,26 @@ func (ts *PlayerControllerSystem) Update(dt float32) {
 		keys := player.Input.Keys
 		Mouse := player.Input.Mouse
 
+		// Toggles Mouse Lock
+		if keys[components.TOGGLE_CURSOR_LOCK] {
+			if ts.toggleCD > ts.toggleThreshhold {
+				if player.Input.MouseLocked {
+					rl.EnableCursor()
+					player.Input.MouseLocked = false
+				} else {
+					rl.DisableCursor()
+					player.Input.MouseLocked = true
+				}
+				ts.toggleCD = 0
+			}
+		}
+
+		// resolve movement
 		movementVector := rl.Vector3{
 			X: 0,
 			Y: 0,
 			Z: 0,
 		}
-
-		// resolve Input
 		if keys[components.MOVE_FORWARD] {
 			movementVector.X += 1
 		}
@@ -95,18 +109,6 @@ func (ts *PlayerControllerSystem) Update(dt float32) {
 		}
 		if keys[components.MOVE_DOWN] {
 			movementVector.Y -= 1
-		}
-		if keys[components.TOGGLE_CURSOR_LOCK] {
-			if ts.toggleCD > ts.toggleThreshhold {
-				if player.Input.MouseLocked {
-					rl.EnableCursor()
-					player.Input.MouseLocked = false
-				} else {
-					rl.DisableCursor()
-					player.Input.MouseLocked = true
-				}
-				ts.toggleCD = 0
-			}
 		}
 
 		if player.Input.MouseLocked {
@@ -143,6 +145,7 @@ func (ts *PlayerControllerSystem) Update(dt float32) {
 			player.Transformation.Position.Z += rl.Vector3DotProduct(totalMovement, rl.Vector3{X: 0, Y: 0, Z: 1}) * ts.PlayerSpeed
 			player.Transformation.Position.Y += rl.Vector3DotProduct(totalMovement, rl.Vector3{X: 0, Y: 1, Z: 0}) * ts.PlayerSpeed
 		} else {
+			// Block Placement
 			camera := player.Camera.Camera
 			camera.Position = player.Transformation.Position
 			ray := rl.GetMouseRay(rl.GetMousePosition(), *camera)
@@ -167,7 +170,7 @@ func (ts *PlayerControllerSystem) Update(dt float32) {
 							gridSpace.Y,
 							gridSpace.Z,
 							components3d.IMAGE_TEX,
-							12,
+							ts.BlockPlacementTextureIndex,
 						)
 						world.AddEntity(newBlock)
 						ts.toggleCD = 0

@@ -5,8 +5,10 @@ import (
 	"github.com/jtheiss19/game-raylib/internal/engine"
 	components3d "github.com/jtheiss19/game-raylib/internal/engine/components/3d"
 	objects3d "github.com/jtheiss19/game-raylib/internal/engine/objects/3d"
+	objectsui "github.com/jtheiss19/game-raylib/internal/engine/objects/ui"
 
 	systems3d "github.com/jtheiss19/game-raylib/internal/engine/systems/3d"
+
 	ui "github.com/jtheiss19/game-raylib/internal/engine/systems/ui"
 
 	"github.com/google/uuid"
@@ -48,11 +50,10 @@ func main() {
 	world.AddEntity(objects3d.NewChunk(0, 0, -5, components3d.IMAGE_TEX, 4))
 
 	// Draw UI
-	// world.AddEntity(objectsui.NewBlockPlacementUI(20, 20))
+	world.AddEntity(objectsui.NewBlockPlacementUI(20, 40, pcs))
 
 	// GameLoop
 	engine.RunWorld(world)
-
 }
 
 func DrawHouse(world *ecs.World) {

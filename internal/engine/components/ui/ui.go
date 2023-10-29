@@ -8,8 +8,9 @@ import (
 
 type UIComponent struct {
 	*ecs.BaseComponent
-	Position rl.Vector2
-	DrawFunc func(position rl.Vector2)
+	Position   rl.Vector2
+	DrawFunc   func(position rl.Vector2)
+	UpdateFunc func()
 }
 
 func NewUIComponent(position rl.Vector2) *UIComponent {
@@ -18,9 +19,15 @@ func NewUIComponent(position rl.Vector2) *UIComponent {
 		Position:      position,
 		DrawFunc: func(position rl.Vector2) {
 		},
+		UpdateFunc: func() {
+		},
 	}
 }
 
 func (bc *UIComponent) Draw() {
 	bc.DrawFunc(bc.Position)
+}
+
+func (bc *UIComponent) Update() {
+	bc.UpdateFunc()
 }

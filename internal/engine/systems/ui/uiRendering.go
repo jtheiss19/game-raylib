@@ -44,6 +44,7 @@ func (ts *UIRenderingSystem) Update(dt float32) {
 		for _, uiElement := range entities.UI {
 			// Actual rendering happens in the DRAWFUNC of the UI comoponent which is set in the object creation func
 			uiElement.UIComponent.Draw()
+			uiElement.UIComponent.Update()
 		}
 	}
 }
