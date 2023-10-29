@@ -100,8 +100,6 @@ func (ts *ChunkRenderingSystem) Update(dt float32) {
 			)
 		}
 
-		rl.DrawGrid(100, 2)
-
 		rl.EndMode3D()
 
 		rl.DrawRectangle(8, 8, 80, 23, rl.Fade(rl.SkyBlue, 0.5))
