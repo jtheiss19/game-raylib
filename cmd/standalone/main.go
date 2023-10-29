@@ -7,6 +7,7 @@ import (
 	objects3d "github.com/jtheiss19/game-raylib/internal/engine/objects/3d"
 
 	systems3d "github.com/jtheiss19/game-raylib/internal/engine/systems/3d"
+	ui "github.com/jtheiss19/game-raylib/internal/engine/systems/ui"
 
 	"github.com/google/uuid"
 )
@@ -28,6 +29,8 @@ func main() {
 	world.AddSystem(pcs)
 	modelManager := systems3d.NewModelLoadingSystem()
 	world.AddSystem(modelManager)
+	uiManager := ui.NewUIRenderingSystem()
+	world.AddSystem(uiManager)
 
 	// Add objects to world
 	world.AddEntity(objects3d.New3DPlayer(ecs.ID(uuid.New().String()), 0, 3, 0))
