@@ -7,10 +7,6 @@ import (
 	"github.com/sirupsen/logrus"
 )
 
-var (
-	value float32 = 0.4
-)
-
 type UIRenderingSystem struct {
 	*ecs.BaseSystem
 }

@@ -7,6 +7,7 @@ import (
 	objects3d "github.com/jtheiss19/game-raylib/internal/engine/objects/3d"
 
 	systems3d "github.com/jtheiss19/game-raylib/internal/engine/systems/3d"
+	ui "github.com/jtheiss19/game-raylib/internal/engine/systems/ui"
 
 	"github.com/google/uuid"
 )
@@ -24,22 +25,34 @@ func main() {
 	world.AddSystem(chunkRenderer)
 	Renderer := systems3d.NewRenderingSystem()
 	world.AddSystem(Renderer)
-	pcs := systems3d.NewGridPlayerControllerSystem()
+	pcs := systems3d.NewPlayerControllerSystem()
 	world.AddSystem(pcs)
 	modelManager := systems3d.NewModelLoadingSystem()
 	world.AddSystem(modelManager)
+	uiManager := ui.NewUIRenderingSystem()
+	world.AddSystem(uiManager)
+	collisionSystem := systems3d.NewCollisionSystem()
+	world.AddSystem(collisionSystem)
 
 	// Add objects to world
-	world.AddEntity(objects3d.New3DPlayer(ecs.ID(uuid.New().String()), 0, 2, 0))
+	world.AddEntity(objects3d.New3DPlayer(ecs.ID(uuid.New().String()), 0, 3, 0))
 
 	// Draw House
-	DrawHouse(world)
+	if false {
+		DrawHouse(world)
+	} else {
+		world.AddEntity(objects3d.NewBlock3d(5, 1, 1, components3d.IMAGE_TEX, 12))
+	}
 
 	// Draw Floor
 	world.AddEntity(objects3d.NewChunk(0, 0, -5, components3d.IMAGE_TEX, 4))
 
+	// Draw UI
+	// world.AddEntity(objectsui.NewBlockPlacementUI(20, 20))
+
 	// GameLoop
 	engine.RunWorld(world)
+
 }
 
 func DrawHouse(world *ecs.World) {

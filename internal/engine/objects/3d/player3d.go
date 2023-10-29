@@ -15,6 +15,7 @@ func New3DPlayer(playerID ecs.ID, x, y, z int) []ecs.Component {
 	InputComponent := components.NewInputComponent()
 	NetworkComponent := components.NewNetworkComponent()
 	playerComponent := components.NewPlayerComponent(playerID)
+	rayCollision := components3d.NewCollisionProducer3DComponent()
 
 	return []ecs.Component{
 		cameraComponent,
@@ -22,5 +23,6 @@ func New3DPlayer(playerID ecs.ID, x, y, z int) []ecs.Component {
 		InputComponent,
 		NetworkComponent,
 		playerComponent,
+		rayCollision,
 	}
 }

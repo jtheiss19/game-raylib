@@ -28,10 +28,15 @@ func NewBlock3d(x, y, z float32, blockType components3d.TextureType, textureFram
 		textureFrame,
 	)
 	NetworkComponent := components.NewNetworkComponent()
+	Collision := components3d.NewCollisionReceiver3DComponent()
+	minBounding := rl.Vector3Subtract(TransformationComponent.Position, rl.Vector3{X: 0.5, Y: 0.5, Z: 0.5})
+	maxBounding := rl.Vector3Add(TransformationComponent.Position, rl.Vector3{X: 0.5, Y: 0.5, Z: 0.5})
+	Collision.BoundingBox = rl.NewBoundingBox(minBounding, maxBounding)
 
 	return []ecs.Component{
 		TransformationComponent,
 		ModelComponent,
 		NetworkComponent,
+		Collision,
 	}
 }
