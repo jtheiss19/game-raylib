@@ -1,6 +1,8 @@
 package systems3d
 
 import (
+	"math"
+
 	"github.com/jtheiss19/game-raylib/internal/ecs"
 	components3d "github.com/jtheiss19/game-raylib/internal/engine/components/3d"
 
@@ -57,16 +59,18 @@ func (ts *ModelLoadingSystem) Update(dt float32) {
 			loadedModel := rl.LoadModel(string(modelData.ModelComp.ModelDataLocation))
 
 			// Load Texture
-			loadedImage := rl.LoadImage(string(modelData.ModelComp.TextureDataLocation))
+			loadedImage := rl.LoadImage(modelData.ModelComp.TextureDataLocation.TexturePath)
 			// Handle Sprite Sheets
-			if modelData.ModelComp.TextureFrame != 0 {
-				rl.ImageCrop(loadedImage, rl.Rectangle{
-					X:      0,
-					Y:      0,
-					Width:  float32(loadedImage.Width),
-					Height: float32(loadedImage.Height),
-				})
-			}
+			textureWidth := float32(loadedImage.Width) / float32(modelData.ModelComp.TextureDataLocation.TextureFrameWidth)
+			textureHeight := float32(loadedImage.Height) / float32(modelData.ModelComp.TextureDataLocation.TextureFrameHeight)
+			xStart := modelData.ModelComp.TextureFrame % modelData.ModelComp.TextureDataLocation.TextureFrameWidth
+			yStart := math.Floor(float64(modelData.ModelComp.TextureFrame) / float64(modelData.ModelComp.TextureDataLocation.TextureFrameWidth))
+			rl.ImageCrop(loadedImage, rl.Rectangle{
+				X:      textureWidth * float32(xStart),
+				Y:      textureHeight * float32(yStart),
+				Width:  textureWidth,
+				Height: textureHeight,
+			})
 			loadedModel.Materials.Maps.Texture = rl.LoadTextureFromImage(loadedImage)
 
 			// Load Shader

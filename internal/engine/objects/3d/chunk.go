@@ -20,7 +20,7 @@ func NewChunk(x, y, z float32) []ecs.Component {
 		components3d.CRATE_TEX,
 		components3d.INSTANCED_FRAG,
 		components3d.INSTANCED_VERT,
-		0,
+		1,
 	)
 
 	length := 10

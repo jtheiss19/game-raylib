@@ -21,6 +21,7 @@ func SetupScreen() {
 	screenWidth := int32(800)
 	screenHeight := int32(450)
 
+	rl.SetTraceLog(rl.LogWarning)
 	rl.InitWindow(screenWidth, screenHeight, "game")
 	rl.DisableCursor()
 
