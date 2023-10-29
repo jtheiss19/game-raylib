@@ -40,10 +40,10 @@ func (ts *exampleSystem) Update(dt float32) {
 		logrus.Error("could not update system, bad tracked entities")
 		return
 	}
-	logrus.Info(entities.TypeOne[0].Somestuff)
+	logrus.Trace(entities.TypeOne[0].Somestuff)
 }
 
 func (ts *exampleSystem) Initilizer() {
 	// Some initing Code
-	logrus.Info("initing example system")
+	logrus.Trace("initing example system")
 }

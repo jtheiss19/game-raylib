@@ -4,7 +4,6 @@ import (
 	"github.com/jtheiss19/game-raylib/internal/ecs"
 	"github.com/jtheiss19/game-raylib/internal/engine/components"
 	components3d "github.com/jtheiss19/game-raylib/internal/engine/components/3d"
-	systems3d "github.com/jtheiss19/game-raylib/internal/engine/systems/3d"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
@@ -17,10 +16,11 @@ func NewChunk(x, y, z float32) []ecs.Component {
 	TransformationComponent.Scale.Z = 0.5
 	NetworkComponent := components.NewNetworkComponent()
 	ModelComponent := components3d.NewModel3DComponent(
-		string(systems3d.CRATE_OBJ),
-		string(systems3d.CRATE_TEX),
-		string(systems3d.INSTANCED_FRAG),
-		string(systems3d.INSTANCED_VERT),
+		components3d.CRATE_OBJ,
+		components3d.CRATE_TEX,
+		components3d.INSTANCED_FRAG,
+		components3d.INSTANCED_VERT,
+		0,
 	)
 
 	length := 10

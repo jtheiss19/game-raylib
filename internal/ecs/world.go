@@ -80,7 +80,7 @@ func (wrld *World) AddComponent(comp Component) {
 
 // RemoveCompoent removes a compoent from the World
 func (wrld *World) RemoveCompoent(comp Component) {
-	logrus.Info("removing component")
+	logrus.Trace("removing component")
 	id, _ := comp.GetComponentID()
 
 	if comps, ok := wrld.entityLookup[id]; ok {
@@ -103,7 +103,7 @@ func (wrld *World) RemoveCompoent(comp Component) {
 // linking them togeather.
 func (wrld *World) AddEntity(comps []Component) ID {
 	id := ID(uuid.New().String())
-	logrus.Infof("Creating and adding new entity: %v", id.String())
+	logrus.Tracef("Creating and adding new entity: %v", id.String())
 	for _, comp := range comps {
 		comp.setComponentID(id)
 	}
@@ -141,7 +141,7 @@ func (wrld *World) GetEntity(entityID ID) map[reflect.Type]Component {
 
 // RemoveEntity removes all components that share the UUID
 func (wrld *World) RemoveEntity(id ID) {
-	logrus.Info("removing entity")
+	logrus.Trace("removing entity")
 	for _, system := range wrld.systems {
 		system.removeEntity(id)
 	}
@@ -149,14 +149,14 @@ func (wrld *World) RemoveEntity(id ID) {
 
 // AddSystem adds a system to the World after initilizing it
 func (wrld *World) AddSystem(system system) {
-	logrus.Info("trying to add system")
+	logrus.Trace("trying to add system")
 	system.setRequiredComponents(system.GetRequiredComponents())
 	system.calculateBaseComponents()
 
 	system.Initilizer()
 
 	wrld.systems = append(wrld.systems, system)
-	logrus.Info("added system")
+	logrus.Trace("added system")
 }
 
 func (wrld *World) checkCompsForNewSystemMatch(comps map[reflect.Type]Component) {

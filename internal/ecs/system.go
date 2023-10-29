@@ -147,11 +147,11 @@ func (bs *BaseSystem) addEntity(comps map[reflect.Type]Component) {
 				bs.foundIDs[id] = []int{reqStructTypeIndex}
 			}
 
-			logrus.Infof("added entity of to system for requirement: %v with id: %v", reqFieldType, id)
+			logrus.Tracef("added entity of to system for requirement: %v with id: %v", reqFieldType, id)
 		}
 	}
 }
 
 func (bs *BaseSystem) removeEntity(id ID) {
-	logrus.Info("removing entity from system")
+	logrus.Trace("removing entity from system")
 }

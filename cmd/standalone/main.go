@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/jtheiss19/game-raylib/internal/ecs"
 	"github.com/jtheiss19/game-raylib/internal/engine"
+	components3d "github.com/jtheiss19/game-raylib/internal/engine/components/3d"
 	objects3d "github.com/jtheiss19/game-raylib/internal/engine/objects/3d"
 
 	systems3d "github.com/jtheiss19/game-raylib/internal/engine/systems/3d"
@@ -31,9 +32,9 @@ func main() {
 
 	// Add objects to world
 	wrld.AddEntity(objects3d.New3DPlayer(ecs.ID(uuid.New().String()), 0, 1, 0))
-	wrld.AddEntity(objects3d.NewBlock3d(5, 1, -1, systems3d.CRATE_TEX))
-	wrld.AddEntity(objects3d.NewBlock3d(5, 1, 0, systems3d.CRATE_TEX))
-	wrld.AddEntity(objects3d.NewBlock3d(5, 1, 1, systems3d.GRASS_TEX))
+	wrld.AddEntity(objects3d.NewBlock3d(5, 1, -1, components3d.CRATE_TEX))
+	wrld.AddEntity(objects3d.NewBlock3d(5, 1, 0, components3d.CRATE_TEX))
+	wrld.AddEntity(objects3d.NewBlock3d(5, 1, 1, components3d.IMAGE_TEX))
 	wrld.AddEntity(objects3d.NewChunk(0, 0, 0))
 
 	// GameLoop
