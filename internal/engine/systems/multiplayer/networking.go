@@ -6,7 +6,6 @@ import (
 
 	"github.com/jtheiss19/game-raylib/internal/ecs"
 	"github.com/jtheiss19/game-raylib/internal/engine/components"
-	components2d "github.com/jtheiss19/game-raylib/internal/engine/components/2d"
 	"github.com/jtheiss19/game-raylib/internal/network"
 
 	"github.com/google/uuid"
@@ -77,7 +76,6 @@ func (ts *NetworkingSystem) Initilizer() {
 
 func init() {
 	network.RegisterType(ecs.BaseComponent{})
-	network.RegisterType(components2d.CollisionComponent{})
 	network.RegisterType(ecs.ID(uuid.Nil.String()))
 }
 

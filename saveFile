@@ -1,0 +1,266 @@
+{
+	"Models": [
+		{
+			"EntityID": "6914e583-9bd3-4943-ae33-af376c1cc87c",
+			"HashID": "assets\\box\\Crate.objassets\\box\\image.jpg8",
+			"ModelDataLocation": "assets\\box\\Crate.obj",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 7,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "e584b294-2e1b-46f8-9699-263bf0ad3b80",
+			"HashID": "assets\\box\\Crate.objassets\\box\\image.jpg8",
+			"ModelDataLocation": "assets\\box\\Crate.obj",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 7,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "80f38f5e-258d-41b5-bee0-2af70214f8b4",
+			"HashID": "assets\\box\\Crate.objassets\\box\\image.jpg12",
+			"ModelDataLocation": "assets\\box\\Crate.obj",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 11,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f31ec08f-d6f8-4e60-ac97-1118c4b06d3e",
+			"HashID": "assets\\box\\Crate.objassets\\box\\image.jpg7",
+			"ModelDataLocation": "assets\\box\\Crate.obj",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 6,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		}
+	],
+	"Transforms": [
+		{
+			"EntityID": "6914e583-9bd3-4943-ae33-af376c1cc87c",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "e584b294-2e1b-46f8-9699-263bf0ad3b80",
+			"Position": {
+				"X": 4,
+				"Y": 2,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "80f38f5e-258d-41b5-bee0-2af70214f8b4",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f31ec08f-d6f8-4e60-ac97-1118c4b06d3e",
+			"Position": {
+				"X": 5,
+				"Y": 2,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		}
+	]
+}

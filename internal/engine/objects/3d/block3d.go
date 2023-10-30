@@ -32,11 +32,13 @@ func NewBlock3d(x, y, z float32, blockType components3d.TextureType, textureFram
 	minBounding := rl.Vector3Subtract(TransformationComponent.Position, rl.Vector3{X: 0.5, Y: 0.5, Z: 0.5})
 	maxBounding := rl.Vector3Add(TransformationComponent.Position, rl.Vector3{X: 0.5, Y: 0.5, Z: 0.5})
 	Collision.BoundingBox = rl.NewBoundingBox(minBounding, maxBounding)
+	saveComp := components3d.NewSave3DComponent()
 
 	return []ecs.Component{
 		TransformationComponent,
 		ModelComponent,
 		NetworkComponent,
 		Collision,
+		saveComp,
 	}
 }

@@ -4,7 +4,6 @@ import (
 	"encoding/gob"
 
 	"github.com/jtheiss19/game-raylib/internal/ecs"
-	objects2d "github.com/jtheiss19/game-raylib/internal/engine/objects/2d"
 	"github.com/jtheiss19/game-raylib/internal/network"
 
 	"github.com/google/uuid"
@@ -103,8 +102,8 @@ func serverJoinHandler(enc *gob.Encoder, ts *NetworkingSystem) {
 		logrus.Error(err)
 	}
 
-	comps := objects2d.New2DPlayer(newPlayersID)
-	playerID := ecs.GetActiveWorld().AddEntity(comps)
+	// comps := objects2d.New2DPlayer(newPlayersID)
+	// playerID := ecs.GetActiveWorld().AddEntity(comps)
 
-	ts.connections[playerID] = enc
+	// ts.connections[playerID] = enc
 }

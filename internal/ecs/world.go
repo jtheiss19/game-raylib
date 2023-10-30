@@ -128,15 +128,22 @@ func (wrld *World) GetEntity(entityID ID) map[reflect.Type]Component {
 	if compsMap, ok := wrld.entityLookup[entityID]; !ok {
 		return map[reflect.Type]Component{}
 	} else {
-		// Create the target map
-		targetMap := map[reflect.Type]Component{}
-
-		// Copy from the original map to the target map
-		for key, value := range compsMap {
-			targetMap[key] = value
-		}
-		return targetMap
+		return compsMap
 	}
+}
+
+// GetComponents gets all the components in the World that
+// match your input type
+func (wrld *World) GetComponents(lookupType reflect.Type) []Component {
+	mu.Lock()
+	defer mu.Unlock()
+	returnList := []Component{}
+	for _, entities := range wrld.entityLookup {
+		if comp, ok := entities[lookupType]; ok {
+			returnList = append(returnList, comp)
+		}
+	}
+	return returnList
 }
 
 // RemoveEntity removes all components that share the UUID
