@@ -42,6 +42,8 @@ func main() {
 	// Draw Floor
 	world.AddEntity(objects3d.NewChunk(0, 0, -5, components3d.IMAGE_TEX, 4))
 
+	world.AddEntity(objects3d.NewBlock3d(6, 1, 0, components3d.IMAGE_TEX, components3d.CUBE_OBJ, 4))
+
 	// Draw UI
 	world.AddEntity(objectsui.NewBlockPlacementUI(20, 40, pcs))
 

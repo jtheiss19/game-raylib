@@ -1,15 +1,15 @@
 {
 	"Models": [
 		{
-			"EntityID": "6914e583-9bd3-4943-ae33-af376c1cc87c",
-			"HashID": "assets\\box\\Crate.objassets\\box\\image.jpg8",
-			"ModelDataLocation": "assets\\box\\Crate.obj",
+			"EntityID": "c831cbde-a656-4273-be30-e851f7ee651d",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
 			"TextureDataLocation": {
 				"TexturePath": "assets\\box\\image.jpg",
 				"TextureFrameWidth": 5,
 				"TextureFrameHeight": 5
 			},
-			"TextureFrame": 7,
+			"TextureFrame": 21,
 			"FragmentShader": "",
 			"VertexShader": "",
 			"Model": {
@@ -43,15 +43,15 @@
 			"LoadedModel": false
 		},
 		{
-			"EntityID": "e584b294-2e1b-46f8-9699-263bf0ad3b80",
-			"HashID": "assets\\box\\Crate.objassets\\box\\image.jpg8",
-			"ModelDataLocation": "assets\\box\\Crate.obj",
+			"EntityID": "a0b9948b-05a4-417d-8a88-6db8289f9437",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
 			"TextureDataLocation": {
 				"TexturePath": "assets\\box\\image.jpg",
 				"TextureFrameWidth": 5,
 				"TextureFrameHeight": 5
 			},
-			"TextureFrame": 7,
+			"TextureFrame": 21,
 			"FragmentShader": "",
 			"VertexShader": "",
 			"Model": {
@@ -85,15 +85,15 @@
 			"LoadedModel": false
 		},
 		{
-			"EntityID": "80f38f5e-258d-41b5-bee0-2af70214f8b4",
-			"HashID": "assets\\box\\Crate.objassets\\box\\image.jpg12",
-			"ModelDataLocation": "assets\\box\\Crate.obj",
+			"EntityID": "4e062a0f-428c-41a6-a746-41a504851a49",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
 			"TextureDataLocation": {
 				"TexturePath": "assets\\box\\image.jpg",
 				"TextureFrameWidth": 5,
 				"TextureFrameHeight": 5
 			},
-			"TextureFrame": 11,
+			"TextureFrame": 24,
 			"FragmentShader": "",
 			"VertexShader": "",
 			"Model": {
@@ -127,15 +127,6483 @@
 			"LoadedModel": false
 		},
 		{
-			"EntityID": "f31ec08f-d6f8-4e60-ac97-1118c4b06d3e",
-			"HashID": "assets\\box\\Crate.objassets\\box\\image.jpg7",
-			"ModelDataLocation": "assets\\box\\Crate.obj",
+			"EntityID": "a230b56b-c015-4a6c-9ccf-cfd9cc451ba7",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
 			"TextureDataLocation": {
 				"TexturePath": "assets\\box\\image.jpg",
 				"TextureFrameWidth": 5,
 				"TextureFrameHeight": 5
 			},
-			"TextureFrame": 6,
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "31fc87de-ab09-4aa0-ae2a-daa9b19dc378",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "645e5708-baeb-4320-96ee-835b58384740",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "4e37934b-c025-44c0-872e-c3fc265c74ad",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "1f5d40f6-9f4c-4474-81cb-b2d57a63e136",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "98c156d8-2582-423e-a7c9-ac2141151fa6",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "7d673c1d-2897-4e99-9211-0df974300e4b",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "543d2a5a-18c3-482e-86b0-d7bbe5cc5c2f",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "18c0bf24-c6bb-448b-a450-e2ebf64750f5",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg20",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 19,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "80139e3d-44d5-4335-8ab9-1fe294472ad6",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "abb29e2f-4132-4604-8697-0ddce3430c3f",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "a7e482e8-c760-4fcd-b6af-2342125c4ce6",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "d6e93479-fa88-4947-a8c3-091242362ecc",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "70f6c842-a204-4ca6-b12b-c7935bc2a2a0",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "058e714d-940a-4a6c-a1f2-8addf2b4b9c5",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "40a05d39-28b7-42d9-b62b-5e3843358423",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "213183e3-8062-4783-a814-1aeec3c41098",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "10b1b123-0f43-4cef-ab3e-9bb63d0546d0",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg18",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 17,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "03eb9323-bb61-407d-89c2-3630e884cf4a",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f97f52d0-04a9-4b70-a772-3c8fed02f4e1",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f270eed2-413d-4d0d-8162-36924ff3c94d",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "3b5fd558-4ddd-487f-886a-3a98f8fd619c",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "5b5583d2-769e-4412-9b64-63ac419bcded",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "e3c93752-6f38-46e3-9317-33eb8ba594fd",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "d42f7ad3-5ae1-420d-9104-010fad6ddd18",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "c25b30a6-0cd6-442b-ad50-e9ab3e46ac66",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "111cc661-1fcd-4186-b1e1-676e53649e59",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ff148d76-383a-47ed-950b-03167221efaa",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "701e4b0c-5186-4e9c-9b71-762fe8f65e9f",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "48cfc4ff-48e2-4b40-ad46-08586f2ceed9",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "8e47f139-8c0a-44fa-84bb-b0ee975be8bb",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "1ef08020-373f-4092-bdc4-a2c9a5fae484",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "82017249-16c3-4966-8c2b-bcd5d19624cb",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "dbc8220b-d994-4313-b47a-d2d15d4b6647",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "6e11d942-2c5b-486f-a186-807de3a37fca",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "6024424d-e6ba-46ec-8673-38d99b20c579",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "3065e20a-3489-499b-b5f1-58f8f04753d6",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f6d29b6a-20b7-44b6-b71d-7237e0c427d0",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "732f5ec8-4224-491d-8132-cef5c12315e3",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "8fd52e92-b69b-4991-9b52-d8ea9188cd7c",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "8591beab-0b75-4e47-9edf-b8e0285b306d",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "3a33e928-8f8b-4873-9a12-fa4b25b21db9",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ab1b6303-1254-46d7-8517-c09a92f0cf1f",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "8255a419-391b-46c0-93cb-49426345f3f2",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "b0c8a088-0831-4609-924c-e49a3994e45f",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "b62f412c-5f6c-4773-b424-9c7a2c1d935e",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "91c468c9-a029-4151-955b-74c107d73a68",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "4da996af-f3b9-4c0c-b442-c54e28d1b0e5",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "9cd2070f-c8d5-4988-8e27-3a4378ae7fc1",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg20",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 19,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "c578421d-58cf-44e8-ac1b-8e4e8e4fd62e",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg20",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 19,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "d93105cd-c89f-44f2-a3c8-493e0d1e88f7",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "e1d67a88-f064-40f1-9013-be1ea108abb4",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "b5657305-e196-41e8-bd52-0479b49d2afc",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "fc32f07d-93e0-47e0-a6da-32f3bde3bab1",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "67595591-2503-4fd1-b63b-24d0286c13c3",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ef9784c5-6c33-42a0-8c24-2be65ea152b1",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "9f25546e-e21f-4691-91ac-62e87f1092f4",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "dc7c886d-0295-47b2-a064-3107e0bbb8cc",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "e114c4fe-ece0-4d11-a86b-562634c06c19",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "30bfaedf-c97f-4c9b-9cf5-f7800d106ff7",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "d26098f0-57bf-46bb-a57f-31f632043938",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg20",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 19,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "35b238fa-0f77-4e70-b1da-c2e9b0c89a86",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "3f3bf336-0121-4e58-a8c4-75655ee81fcb",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "66f9da80-88b2-46d5-8034-6d2451688f1c",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "de9c9051-2be1-4ca5-b35c-1489f3b01c42",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "4fee8fb1-fcb2-4521-9972-c1a42ac540a1",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "a6cad7ff-b9cb-4d18-ada6-c6e9c6b2babb",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "fab94fb2-0d1b-443a-af3d-7427fae256e0",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "9c049797-0c69-4889-9ac7-c08e423dc7b6",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "1435d581-1775-4cd5-9e47-d73354cf8ca3",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "1947618c-4861-4785-a7a0-65a5927fa28f",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "940bec8b-f705-47cb-b9ef-0b2720b4f094",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "bf25916f-4575-4681-945d-59d62b0c692d",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ff49496c-7696-46ff-b40d-ab28c876e11b",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg18",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 17,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "78a80660-4069-4917-841e-686264d56468",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "b81613c1-7465-4595-b768-5064ed179d29",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "a9ed75ec-9cce-4845-94b3-2b6ecefdc8ca",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "a28e5af4-f787-49dd-9096-f8543cedf8d1",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "c63b8ead-9346-4cb0-86c6-28c673187a63",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "a0f3d226-2eb0-4edc-9d0b-78551e81d01a",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg20",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 19,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "31344244-5bf4-4d05-b964-55ac5d37544d",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "cae81d57-57c4-4a74-9d15-c4adc7026c25",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ca4cac33-349d-44bd-a349-4c93dccc5a22",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "6ba28eba-7d41-41de-a14e-041368e151b7",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "28c799d4-556c-42df-9448-b496208617a8",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "5ac73555-b533-4b8c-b8c8-afa31d164914",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg19",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 18,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "21d0e243-1858-4268-8ef3-750d8cd80198",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg18",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 17,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "a6718c67-c62e-4b12-9322-7be10cf5b82a",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "9878fc68-1cc5-4788-9ee0-7b920686da89",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "3d25db50-d349-40d6-a426-f5b3aac978dc",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f4b3122d-9dc8-48d3-995a-3d2d5c240410",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "268de805-f049-4715-bbfc-cbf43d587469",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "faf9e65f-a139-4e7b-88f0-dc2c6254bd26",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "49749414-3df5-4b36-8868-9351e1edc64f",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "d1e4d638-9fef-4353-9137-6737e62e5ec0",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "dcd0f17a-43a0-45db-8e8c-713c52ac6229",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "9a2750d1-7477-42b1-93f8-d9370d233934",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "21a9a3ad-fa17-40ff-ba05-b93c02ef4ede",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg19",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 18,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "0d07236a-4692-4f2c-900c-d618d29bd468",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg19",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 18,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ea41901e-48eb-435d-865a-90a1307d7429",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f3ebf0ea-47bd-45b8-a1b9-8b2298f891ab",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "0c15845e-4b47-45c7-adfe-2b432ec5b119",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "3e38775e-eb94-4fcd-bf20-71e2890b5941",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "0ff46fc9-eabd-4d4f-84ea-22902f7ce6f2",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ebbec825-b90e-4530-8b42-28010031b2ae",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "81c80b41-6191-406b-849d-a901eed88abf",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "48510041-db9b-4787-95fa-1a7caf454436",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "8c7ac60d-3efd-4a21-b7fa-ccaa55605fbb",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "75eb3fef-06c5-4e01-a2a7-8c2e4b4fcbb8",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ee4b9094-4646-486a-a99d-21473d37b536",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f449b05c-f3e3-4cc6-b4c3-b85e1004c1e2",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "71ff6177-02a4-40ef-82c7-e2c86ab6e67b",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg18",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 17,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "b0829a31-2109-4aa5-82b4-a8b8c4796116",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "75ec1412-e053-4fac-a6b9-6c0a31a57c28",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "ede42e31-bda3-418c-84df-498033b2289a",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "cbeb96f9-611c-4588-b0f0-17b3306eecbc",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "a1bdec93-dbc0-4eaf-8a45-5dc28dbdb60b",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "952e264b-4a6c-4c2e-aa4c-9e0e690ac683",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "3cc8e076-51b3-4c6e-af7d-a853319e3fe9",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "87bd413d-ed2b-4a25-be39-3216498f938e",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "052637ad-7809-468e-bd6b-fb4c335cd763",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg21",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 20,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "6c26eda9-9000-4798-9566-35c61b11b42a",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "98608fee-314f-4cc5-9e7d-461ca539bc8b",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "541f4e3c-304a-4526-89d8-28756f0152a5",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "0cd503d0-3081-4db9-a75e-56c93d1af987",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "90b514a0-23bb-418e-a459-6dec2654f960",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "d7386a82-ef7b-4d76-a951-457dc9251d17",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "3c22df1e-7bec-41d2-b5a4-573cdcca989b",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f5553e18-040c-4654-96c1-aa46fd5c3dc0",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "7dabce59-c565-4db9-b4ae-d9180acbcc12",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "fb7b2976-ee7e-4899-9fb0-1ee7a0271159",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg14",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 13,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "c6754057-e627-4bc9-ab43-2294ba07a291",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "8a270617-3ea7-45cf-9745-a2ba8bf6d4bf",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "557539e8-2a42-4d89-9572-bca3c01e81df",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "5b729e26-0bd5-4026-b62e-c29b4bcc60c8",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "0613599f-dd78-4cb7-b6f9-d757a23a476a",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg19",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 18,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "4ccf5ab7-5225-4370-bfd4-328897986636",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "1ba62aee-690d-4e10-9a26-458cde5aae65",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f937e61f-0f9a-40db-bb0f-382975c256dd",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "4b7a47b0-2941-4fb3-b954-d9048230f56d",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg19",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 18,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "c88f7c42-e8f5-459b-a108-aa1b2681d8ec",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg18",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 17,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "c79fe03d-59da-478a-9fa6-e94d3157d0a5",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "41e1d6ac-afe5-47f7-a4d3-267b27fe732c",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg20",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 19,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "1b72cf7e-7f6b-4532-9eb9-d6c039ab9ab4",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "bf4c1fc1-13bb-4927-a52c-7575ffe959b2",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "cecf7531-1a87-49d2-adc1-c3139c272e74",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg19",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 18,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "f5ff0708-e0cd-48e2-86dd-3b1e25fa3af1",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "121226b5-4433-4270-9972-e3b9a0c678d6",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "08caa885-288f-4b99-b379-8d2f45c2616e",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "a7ed4d6c-c68e-47e3-bdce-3fdc29a36624",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "b3db38ae-28a7-4b8b-8d78-3ea564b0b6a5",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg4",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 3,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "68cb06c3-84ba-4687-929c-2a785c45e83b",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg22",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 21,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "fdb07c84-075c-48de-884e-414dceaf5ec5",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg25",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 24,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "9b74415c-9163-4555-b95b-1f8946c6bb4f",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg18",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 17,
+			"FragmentShader": "",
+			"VertexShader": "",
+			"Model": {
+				"Transform": {
+					"M0": 0,
+					"M4": 0,
+					"M8": 0,
+					"M12": 0,
+					"M1": 0,
+					"M5": 0,
+					"M9": 0,
+					"M13": 0,
+					"M2": 0,
+					"M6": 0,
+					"M10": 0,
+					"M14": 0,
+					"M3": 0,
+					"M7": 0,
+					"M11": 0,
+					"M15": 0
+				},
+				"MeshCount": 0,
+				"MaterialCount": 0,
+				"Meshes": null,
+				"Materials": null,
+				"MeshMaterial": null,
+				"BoneCount": 0,
+				"Bones": null,
+				"BindPose": null
+			},
+			"LoadedModel": false
+		},
+		{
+			"EntityID": "e62aa375-5002-440d-9180-37a3ab4bbd31",
+			"HashID": "assets\\box\\cube.glbassets\\box\\image.jpg11",
+			"ModelDataLocation": "assets\\box\\cube.glb",
+			"TextureDataLocation": {
+				"TexturePath": "assets\\box\\image.jpg",
+				"TextureFrameWidth": 5,
+				"TextureFrameHeight": 5
+			},
+			"TextureFrame": 10,
 			"FragmentShader": "",
 			"VertexShader": "",
 			"Model": {
@@ -171,11 +6639,11 @@
 	],
 	"Transforms": [
 		{
-			"EntityID": "6914e583-9bd3-4943-ae33-af376c1cc87c",
+			"EntityID": "c831cbde-a656-4273-be30-e851f7ee651d",
 			"Position": {
-				"X": 4,
+				"X": 3,
 				"Y": 1,
-				"Z": 1
+				"Z": -1
 			},
 			"Scale": {
 				"X": 0.5,
@@ -194,9 +6662,32 @@
 			}
 		},
 		{
-			"EntityID": "e584b294-2e1b-46f8-9699-263bf0ad3b80",
+			"EntityID": "a0b9948b-05a4-417d-8a88-6db8289f9437",
 			"Position": {
-				"X": 4,
+				"X": 0,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "4e062a0f-428c-41a6-a746-41a504851a49",
+			"Position": {
+				"X": 2,
 				"Y": 2,
 				"Z": 1
 			},
@@ -217,7 +6708,1686 @@
 			}
 		},
 		{
-			"EntityID": "80f38f5e-258d-41b5-bee0-2af70214f8b4",
+			"EntityID": "a230b56b-c015-4a6c-9ccf-cfd9cc451ba7",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "31fc87de-ab09-4aa0-ae2a-daa9b19dc378",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "645e5708-baeb-4320-96ee-835b58384740",
+			"Position": {
+				"X": 2,
+				"Y": 3,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "4e37934b-c025-44c0-872e-c3fc265c74ad",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "1f5d40f6-9f4c-4474-81cb-b2d57a63e136",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "98c156d8-2582-423e-a7c9-ac2141151fa6",
+			"Position": {
+				"X": 3,
+				"Y": 4,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "7d673c1d-2897-4e99-9211-0df974300e4b",
+			"Position": {
+				"X": 2,
+				"Y": 4,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "543d2a5a-18c3-482e-86b0-d7bbe5cc5c2f",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": -0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "18c0bf24-c6bb-448b-a450-e2ebf64750f5",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "80139e3d-44d5-4335-8ab9-1fe294472ad6",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "abb29e2f-4132-4604-8697-0ddce3430c3f",
+			"Position": {
+				"X": 1,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "a7e482e8-c760-4fcd-b6af-2342125c4ce6",
+			"Position": {
+				"X": 1,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "d6e93479-fa88-4947-a8c3-091242362ecc",
+			"Position": {
+				"X": 3,
+				"Y": 2,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "70f6c842-a204-4ca6-b12b-c7935bc2a2a0",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "058e714d-940a-4a6c-a1f2-8addf2b4b9c5",
+			"Position": {
+				"X": 3,
+				"Y": 4,
+				"Z": -0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "40a05d39-28b7-42d9-b62b-5e3843358423",
+			"Position": {
+				"X": 2,
+				"Y": 4,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "213183e3-8062-4783-a814-1aeec3c41098",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "10b1b123-0f43-4cef-ab3e-9bb63d0546d0",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "03eb9323-bb61-407d-89c2-3630e884cf4a",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f97f52d0-04a9-4b70-a772-3c8fed02f4e1",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": 4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f270eed2-413d-4d0d-8162-36924ff3c94d",
+			"Position": {
+				"X": 1,
+				"Y": 4,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "3b5fd558-4ddd-487f-886a-3a98f8fd619c",
+			"Position": {
+				"X": 1,
+				"Y": 4,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "5b5583d2-769e-4412-9b64-63ac419bcded",
+			"Position": {
+				"X": 3,
+				"Y": 4,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "e3c93752-6f38-46e3-9317-33eb8ba594fd",
+			"Position": {
+				"X": 1,
+				"Y": 2,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "d42f7ad3-5ae1-420d-9104-010fad6ddd18",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "c25b30a6-0cd6-442b-ad50-e9ab3e46ac66",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": 4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "111cc661-1fcd-4186-b1e1-676e53649e59",
+			"Position": {
+				"X": 0,
+				"Y": 4,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ff148d76-383a-47ed-950b-03167221efaa",
+			"Position": {
+				"X": 1,
+				"Y": 4,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "701e4b0c-5186-4e9c-9b71-762fe8f65e9f",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "48cfc4ff-48e2-4b40-ad46-08586f2ceed9",
+			"Position": {
+				"X": 2,
+				"Y": 2,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "8e47f139-8c0a-44fa-84bb-b0ee975be8bb",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": 4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "1ef08020-373f-4092-bdc4-a2c9a5fae484",
+			"Position": {
+				"X": 1,
+				"Y": 4,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "82017249-16c3-4966-8c2b-bcd5d19624cb",
+			"Position": {
+				"X": 1,
+				"Y": 4,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "dbc8220b-d994-4313-b47a-d2d15d4b6647",
+			"Position": {
+				"X": 0,
+				"Y": 4,
+				"Z": -0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "6e11d942-2c5b-486f-a186-807de3a37fca",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "6024424d-e6ba-46ec-8673-38d99b20c579",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "3065e20a-3489-499b-b5f1-58f8f04753d6",
+			"Position": {
+				"X": 3,
+				"Y": 3,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f6d29b6a-20b7-44b6-b71d-7237e0c427d0",
+			"Position": {
+				"X": 0,
+				"Y": 3,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "732f5ec8-4224-491d-8132-cef5c12315e3",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "8fd52e92-b69b-4991-9b52-d8ea9188cd7c",
+			"Position": {
+				"X": 2,
+				"Y": 3,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "8591beab-0b75-4e47-9edf-b8e0285b306d",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "3a33e928-8f8b-4873-9a12-fa4b25b21db9",
+			"Position": {
+				"X": 3,
+				"Y": 4,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ab1b6303-1254-46d7-8517-c09a92f0cf1f",
+			"Position": {
+				"X": -0,
+				"Y": 2,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "8255a419-391b-46c0-93cb-49426345f3f2",
+			"Position": {
+				"X": -0,
+				"Y": 2,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "b0c8a088-0831-4609-924c-e49a3994e45f",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "b62f412c-5f6c-4773-b424-9c7a2c1d935e",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": 4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "91c468c9-a029-4151-955b-74c107d73a68",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "4da996af-f3b9-4c0c-b442-c54e28d1b0e5",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "9cd2070f-c8d5-4988-8e27-3a4378ae7fc1",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "c578421d-58cf-44e8-ac1b-8e4e8e4fd62e",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "d93105cd-c89f-44f2-a3c8-493e0d1e88f7",
+			"Position": {
+				"X": 0,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "e1d67a88-f064-40f1-9013-be1ea108abb4",
+			"Position": {
+				"X": 0,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "b5657305-e196-41e8-bd52-0479b49d2afc",
+			"Position": {
+				"X": 1,
+				"Y": 3,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "fc32f07d-93e0-47e0-a6da-32f3bde3bab1",
+			"Position": {
+				"X": 3,
+				"Y": 4,
+				"Z": -0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "67595591-2503-4fd1-b63b-24d0286c13c3",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ef9784c5-6c33-42a0-8c24-2be65ea152b1",
+			"Position": {
+				"X": 3,
+				"Y": 2,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "9f25546e-e21f-4691-91ac-62e87f1092f4",
+			"Position": {
+				"X": -0,
+				"Y": 2,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "dc7c886d-0295-47b2-a064-3107e0bbb8cc",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "e114c4fe-ece0-4d11-a86b-562634c06c19",
+			"Position": {
+				"X": 2,
+				"Y": 4,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "30bfaedf-c97f-4c9b-9cf5-f7800d106ff7",
+			"Position": {
+				"X": 3,
+				"Y": 4,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "d26098f0-57bf-46bb-a57f-31f632043938",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "35b238fa-0f77-4e70-b1da-c2e9b0c89a86",
+			"Position": {
+				"X": -0,
+				"Y": 2,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "3f3bf336-0121-4e58-a8c4-75655ee81fcb",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "66f9da80-88b2-46d5-8034-6d2451688f1c",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "de9c9051-2be1-4ca5-b35c-1489f3b01c42",
+			"Position": {
+				"X": 2,
+				"Y": 4,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "4fee8fb1-fcb2-4521-9972-c1a42ac540a1",
+			"Position": {
+				"X": 1,
+				"Y": 3,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "a6cad7ff-b9cb-4d18-ada6-c6e9c6b2babb",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "fab94fb2-0d1b-443a-af3d-7427fae256e0",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "9c049797-0c69-4889-9ac7-c08e423dc7b6",
+			"Position": {
+				"X": -0,
+				"Y": 4,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "1435d581-1775-4cd5-9e47-d73354cf8ca3",
+			"Position": {
+				"X": -0,
+				"Y": 3,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "1947618c-4861-4785-a7a0-65a5927fa28f",
+			"Position": {
+				"X": -0,
+				"Y": 3,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "940bec8b-f705-47cb-b9ef-0b2720b4f094",
+			"Position": {
+				"X": -0,
+				"Y": 5,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "bf25916f-4575-4681-945d-59d62b0c692d",
+			"Position": {
+				"X": 3,
+				"Y": 3,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ff49496c-7696-46ff-b40d-ab28c876e11b",
 			"Position": {
 				"X": 5,
 				"Y": 1,
@@ -240,11 +8410,1851 @@
 			}
 		},
 		{
-			"EntityID": "f31ec08f-d6f8-4e60-ac97-1118c4b06d3e",
+			"EntityID": "78a80660-4069-4917-841e-686264d56468",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "b81613c1-7465-4595-b768-5064ed179d29",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": 4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "a9ed75ec-9cce-4845-94b3-2b6ecefdc8ca",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "a28e5af4-f787-49dd-9096-f8543cedf8d1",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "c63b8ead-9346-4cb0-86c6-28c673187a63",
+			"Position": {
+				"X": 9,
+				"Y": 2,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "a0f3d226-2eb0-4edc-9d0b-78551e81d01a",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "31344244-5bf4-4d05-b964-55ac5d37544d",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "cae81d57-57c4-4a74-9d15-c4adc7026c25",
+			"Position": {
+				"X": 3,
+				"Y": 3,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ca4cac33-349d-44bd-a349-4c93dccc5a22",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "6ba28eba-7d41-41de-a14e-041368e151b7",
+			"Position": {
+				"X": 1,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "28c799d4-556c-42df-9448-b496208617a8",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "5ac73555-b533-4b8c-b8c8-afa31d164914",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "21d0e243-1858-4268-8ef3-750d8cd80198",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "a6718c67-c62e-4b12-9322-7be10cf5b82a",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "9878fc68-1cc5-4788-9ee0-7b920686da89",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "3d25db50-d349-40d6-a426-f5b3aac978dc",
 			"Position": {
 				"X": 5,
-				"Y": 2,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f4b3122d-9dc8-48d3-995a-3d2d5c240410",
+			"Position": {
+				"X": 9,
+				"Y": 1,
 				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "268de805-f049-4715-bbfc-cbf43d587469",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "faf9e65f-a139-4e7b-88f0-dc2c6254bd26",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "49749414-3df5-4b36-8868-9351e1edc64f",
+			"Position": {
+				"X": 1,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "d1e4d638-9fef-4353-9137-6737e62e5ec0",
+			"Position": {
+				"X": -0,
+				"Y": 2,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "dcd0f17a-43a0-45db-8e8c-713c52ac6229",
+			"Position": {
+				"X": 2,
+				"Y": 2,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "9a2750d1-7477-42b1-93f8-d9370d233934",
+			"Position": {
+				"X": 1,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "21a9a3ad-fa17-40ff-ba05-b93c02ef4ede",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "0d07236a-4692-4f2c-900c-d618d29bd468",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ea41901e-48eb-435d-865a-90a1307d7429",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f3ebf0ea-47bd-45b8-a1b9-8b2298f891ab",
+			"Position": {
+				"X": 1,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "0c15845e-4b47-45c7-adfe-2b432ec5b119",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": 4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "3e38775e-eb94-4fcd-bf20-71e2890b5941",
+			"Position": {
+				"X": 2,
+				"Y": 2,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "0ff46fc9-eabd-4d4f-84ea-22902f7ce6f2",
+			"Position": {
+				"X": 3,
+				"Y": 2,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ebbec825-b90e-4530-8b42-28010031b2ae",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "81c80b41-6191-406b-849d-a901eed88abf",
+			"Position": {
+				"X": 1,
+				"Y": 4,
+				"Z": -0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "48510041-db9b-4787-95fa-1a7caf454436",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "8c7ac60d-3efd-4a21-b7fa-ccaa55605fbb",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "75eb3fef-06c5-4e01-a2a7-8c2e4b4fcbb8",
+			"Position": {
+				"X": 0,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ee4b9094-4646-486a-a99d-21473d37b536",
+			"Position": {
+				"X": 0,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f449b05c-f3e3-4cc6-b4c3-b85e1004c1e2",
+			"Position": {
+				"X": -0,
+				"Y": 2,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "71ff6177-02a4-40ef-82c7-e2c86ab6e67b",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "b0829a31-2109-4aa5-82b4-a8b8c4796116",
+			"Position": {
+				"X": 1,
+				"Y": 4,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "75ec1412-e053-4fac-a6b9-6c0a31a57c28",
+			"Position": {
+				"X": 0,
+				"Y": 4,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "ede42e31-bda3-418c-84df-498033b2289a",
+			"Position": {
+				"X": 1,
+				"Y": 1,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "cbeb96f9-611c-4588-b0f0-17b3306eecbc",
+			"Position": {
+				"X": 2,
+				"Y": 2,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "a1bdec93-dbc0-4eaf-8a45-5dc28dbdb60b",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "952e264b-4a6c-4c2e-aa4c-9e0e690ac683",
+			"Position": {
+				"X": 2,
+				"Y": 4,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "3cc8e076-51b3-4c6e-af7d-a853319e3fe9",
+			"Position": {
+				"X": 3,
+				"Y": 4,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "87bd413d-ed2b-4a25-be39-3216498f938e",
+			"Position": {
+				"X": 8,
+				"Y": 1,
+				"Z": -0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "052637ad-7809-468e-bd6b-fb4c335cd763",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "6c26eda9-9000-4798-9566-35c61b11b42a",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": 4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "98608fee-314f-4cc5-9e7d-461ca539bc8b",
+			"Position": {
+				"X": 1,
+				"Y": 2,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "541f4e3c-304a-4526-89d8-28756f0152a5",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "0cd503d0-3081-4db9-a75e-56c93d1af987",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "90b514a0-23bb-418e-a459-6dec2654f960",
+			"Position": {
+				"X": 3,
+				"Y": 2,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "d7386a82-ef7b-4d76-a951-457dc9251d17",
+			"Position": {
+				"X": 1,
+				"Y": 2,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "3c22df1e-7bec-41d2-b5a4-573cdcca989b",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f5553e18-040c-4654-96c1-aa46fd5c3dc0",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": 4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "7dabce59-c565-4db9-b4ae-d9180acbcc12",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "fb7b2976-ee7e-4899-9fb0-1ee7a0271159",
+			"Position": {
+				"X": 2,
+				"Y": 4,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "c6754057-e627-4bc9-ab43-2294ba07a291",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "8a270617-3ea7-45cf-9745-a2ba8bf6d4bf",
+			"Position": {
+				"X": 1,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "557539e8-2a42-4d89-9572-bca3c01e81df",
+			"Position": {
+				"X": 3,
+				"Y": 3,
+				"Z": -1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "5b729e26-0bd5-4026-b62e-c29b4bcc60c8",
+			"Position": {
+				"X": -0,
+				"Y": 3,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "0613599f-dd78-4cb7-b6f9-d757a23a476a",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "4ccf5ab7-5225-4370-bfd4-328897986636",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "1ba62aee-690d-4e10-9a26-458cde5aae65",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": 3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f937e61f-0f9a-40db-bb0f-382975c256dd",
+			"Position": {
+				"X": 0,
+				"Y": 4,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "4b7a47b0-2941-4fb3-b954-d9048230f56d",
+			"Position": {
+				"X": 5,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "c88f7c42-e8f5-459b-a108-aa1b2681d8ec",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "c79fe03d-59da-478a-9fa6-e94d3157d0a5",
+			"Position": {
+				"X": 6,
+				"Y": 1,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "41e1d6ac-afe5-47f7-a4d3-267b27fe732c",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": -3
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "1b72cf7e-7f6b-4532-9eb9-d6c039ab9ab4",
+			"Position": {
+				"X": 0,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "bf4c1fc1-13bb-4927-a52c-7575ffe959b2",
+			"Position": {
+				"X": -0,
+				"Y": 3,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "cecf7531-1a87-49d2-adc1-c3139c272e74",
+			"Position": {
+				"X": 4,
+				"Y": 1,
+				"Z": -4
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "f5ff0708-e0cd-48e2-86dd-3b1e25fa3af1",
+			"Position": {
+				"X": 2,
+				"Y": 4,
+				"Z": 0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "121226b5-4433-4270-9972-e3b9a0c678d6",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": 2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "08caa885-288f-4b99-b379-8d2f45c2616e",
+			"Position": {
+				"X": 9,
+				"Y": 1,
+				"Z": -0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "a7ed4d6c-c68e-47e3-bdce-3fdc29a36624",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "b3db38ae-28a7-4b8b-8d78-3ea564b0b6a5",
+			"Position": {
+				"X": 2,
+				"Y": 1,
+				"Z": -5
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "68cb06c3-84ba-4687-929c-2a785c45e83b",
+			"Position": {
+				"X": 3,
+				"Y": 1,
+				"Z": -2
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "fdb07c84-075c-48de-884e-414dceaf5ec5",
+			"Position": {
+				"X": 0,
+				"Y": 3,
+				"Z": 1
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "9b74415c-9163-4555-b95b-1f8946c6bb4f",
+			"Position": {
+				"X": 7,
+				"Y": 1,
+				"Z": -0
+			},
+			"Scale": {
+				"X": 0.5,
+				"Y": 0.5,
+				"Z": 0.5
+			},
+			"Rotation": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			},
+			"Forward": {
+				"X": 0,
+				"Y": 0,
+				"Z": 0
+			}
+		},
+		{
+			"EntityID": "e62aa375-5002-440d-9180-37a3ab4bbd31",
+			"Position": {
+				"X": 0,
+				"Y": 4,
+				"Z": -2
 			},
 			"Scale": {
 				"X": 0.5,

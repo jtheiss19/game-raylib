@@ -71,7 +71,8 @@ func (ts *ModelLoadingSystem) Update(dt float32) {
 				Width:  textureWidth,
 				Height: textureHeight,
 			})
-			loadedModel.Materials.Maps.Texture = rl.LoadTextureFromImage(loadedImage)
+			rl.SetModelMeshMaterial(&loadedModel, 0, 0)
+			rl.SetMaterialTexture(loadedModel.Materials, rl.MapDiffuse, rl.LoadTextureFromImage(loadedImage))
 
 			// Load Shader
 			if modelData.ModelComp.VertexShader != "" && modelData.ModelComp.FragmentShader != "" {

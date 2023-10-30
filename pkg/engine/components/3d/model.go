@@ -35,7 +35,9 @@ var (
 type ObjectType string
 
 const (
-	CRATE_OBJ ObjectType = `assets\box\Crate.obj`
+	CUBE_OBJ ObjectType = `assets\box\cube.glb`
+	RAMP_OBJ ObjectType = `assets\box\ramp.glb`
+	SLAB_OBJ ObjectType = `assets\box\slab.glb`
 )
 
 type FragmentShader string

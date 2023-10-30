@@ -170,6 +170,7 @@ func (ts *PlayerControllerSystem) Update(dt float32) {
 							gridSpace.Y,
 							gridSpace.Z,
 							components3d.IMAGE_TEX,
+							components3d.CUBE_OBJ,
 							ts.BlockPlacementTextureIndex,
 						)
 						world.AddEntity(newBlock)

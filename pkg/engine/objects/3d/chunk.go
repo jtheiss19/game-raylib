@@ -16,7 +16,7 @@ func NewChunk(x, y, z float32, blockType components3d.TextureType, TextureFrame 
 	TransformationComponent.Scale.Z = 0.5
 	NetworkComponent := components.NewNetworkComponent()
 	ModelComponent := components3d.NewModel3DComponent(
-		components3d.CRATE_OBJ,
+		components3d.CUBE_OBJ,
 		blockType,
 		components3d.INSTANCED_FRAG,
 		components3d.INSTANCED_VERT,

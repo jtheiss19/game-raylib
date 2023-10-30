@@ -2,6 +2,7 @@ package engine
 
 import (
 	"github.com/jtheiss19/game-raylib/pkg/ecs"
+	"github.com/sirupsen/logrus"
 
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
@@ -26,6 +27,7 @@ func RunWorld(world *ecs.World) {
 			// the load. Rendering functions shouldn't run during this step
 			// for example
 			world.UpdateSystems(0)
+			logrus.Error("World Can't Keep Up")
 		} else {
 			world.UpdateSystems(delay)
 		}

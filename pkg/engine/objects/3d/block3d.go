@@ -9,7 +9,7 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-func NewBlock3d(x, y, z float32, blockType components3d.TextureType, textureFrame int) []ecs.Component {
+func NewBlock3d(x, y, z float32, blockType components3d.TextureType, objectType components3d.ObjectType, textureFrame int) []ecs.Component {
 	TransformationComponent := components3d.NewTransformation3DComponent()
 	TransformationComponent.Position = rl.NewVector3(x, y, z)
 	TransformationComponent.Scale.X = 0.5
@@ -21,7 +21,7 @@ func NewBlock3d(x, y, z float32, blockType components3d.TextureType, textureFram
 	}
 
 	ModelComponent := components3d.NewModel3DComponent(
-		components3d.CRATE_OBJ,
+		objectType,
 		blockType,
 		"",
 		"",
