@@ -11,6 +11,7 @@ Submit bug reports and feature suggestions, or track changes in the
 ## Table of contents
 
 - Requirements
+- Examples
 - Basic Use - Hello World
     - Creating a custom component
     - Creating a custom object
@@ -32,7 +33,7 @@ using them.
 
 ## Examples
 
-Two Examples are found under the path `cmd/<example_name>/`
+Two Examples are found under the path `cmd/<example_name>/`. Run them via `go run cmd/<example_name>/main.go`.
 
 ## Basic Use - Hello World
 
