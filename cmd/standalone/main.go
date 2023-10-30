@@ -36,7 +36,7 @@ func main() {
 	DrawHouse(world)
 
 	// Draw Floor
-	world.AddEntity(objects3d.NewChunk(0, 0, -5, components3d.IMAGE_TEX, 4))
+	world.AddEntity(objects3d.NewChunk(0, 0, -5, 10, 10, 10, components3d.IMAGE_TEX, 4))
 
 	// GameLoop
 	engine.RunWorld(world)

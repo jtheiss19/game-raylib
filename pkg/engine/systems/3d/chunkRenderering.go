@@ -92,6 +92,9 @@ func (ts *ChunkRenderingSystem) Update(dt float32) {
 					transformMatricies = append(transformMatricies, transformMatrix)
 				}
 			}
+			shader := chunkData.ModelComp.Model.Materials.Shader
+			rl.SetShaderValue(shader, shader.GetLocation(rl.LocVectorView),
+				[]float32{camera.Position.X, camera.Position.Y, camera.Position.Z}, rl.ShaderUniformVec3)
 			rl.DrawMeshInstanced(
 				*chunkData.ModelComp.Model.Meshes,
 				*chunkData.ModelComp.Model.Materials,

@@ -8,7 +8,7 @@ import (
 	rl "github.com/gen2brain/raylib-go/raylib"
 )
 
-func NewChunk(x, y, z float32, blockType components3d.TextureType, TextureFrame int) []ecs.Component {
+func NewChunk(x, y, z float32, length, width, height int, blockType components3d.TextureType, TextureFrame int) []ecs.Component {
 	TransformationComponent := components3d.NewChunkTransformation3DComponent()
 	TransformationComponent.Position = rl.NewVector3(x, y, z)
 	TransformationComponent.Scale.X = 0.5
@@ -23,19 +23,19 @@ func NewChunk(x, y, z float32, blockType components3d.TextureType, TextureFrame 
 		TextureFrame,
 	)
 
-	length := 10
-	width := 10
 	data := []components3d.Block{}
 	for x := 0; x < length; x++ {
 		for z := 0; z < width; z++ {
-			data = append(data, components3d.Block{
-				RelativePosition: rl.Vector3{
-					X: float32(x),
-					Y: 0,
-					Z: float32(z),
-				},
-				BlockType: 1,
-			})
+			for y := 0; y < height; y++ {
+				data = append(data, components3d.Block{
+					RelativePosition: rl.Vector3{
+						X: float32(x),
+						Y: float32(y),
+						Z: float32(z),
+					},
+					BlockType: 1,
+				})
+			}
 		}
 	}
 	ChunkComponent := components3d.NewChunk3DComponent(10, 10, data)

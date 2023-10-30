@@ -5,7 +5,6 @@ import (
 	"github.com/jtheiss19/game-raylib/pkg/engine"
 	components3d "github.com/jtheiss19/game-raylib/pkg/engine/components/3d"
 	objects3d "github.com/jtheiss19/game-raylib/pkg/engine/objects/3d"
-	objectsui "github.com/jtheiss19/game-raylib/pkg/engine/objects/ui"
 
 	systems3d "github.com/jtheiss19/game-raylib/pkg/engine/systems/3d"
 
@@ -40,12 +39,15 @@ func main() {
 	world.AddEntity(objects3d.New3DPlayer(ecs.ID(uuid.New().String()), 0, 3, 0))
 
 	// Draw Floor
-	world.AddEntity(objects3d.NewChunk(0, 0, -5, components3d.IMAGE_TEX, 4))
+	world.AddEntity(objects3d.NewChunk(0, -256, 16, 16, 16, 256, components3d.IMAGE_TEX, 4))
+	world.AddEntity(objects3d.NewChunk(0, -256, 0, 16, 16, 256, components3d.IMAGE_TEX, 4))
+	world.AddEntity(objects3d.NewChunk(0, -256, -16, 16, 16, 256, components3d.IMAGE_TEX, 4))
+	// world.AddEntity(objects3d.NewChunk(16, -256, 0, 16, 16, 256, components3d.IMAGE_TEX, 4))
 
-	world.AddEntity(objects3d.NewBlock3d(6, 1, 0, components3d.IMAGE_TEX, components3d.CUBE_OBJ, 4))
+	//world.AddEntity(objects3d.NewBlock3d(6, 1, 0, components3d.IMAGE_TEX, components3d.CUBE_OBJ, 4))
 
 	// Draw UI
-	world.AddEntity(objectsui.NewBlockPlacementUI(20, 40, pcs))
+	//world.AddEntity(objectsui.NewBlockPlacementUI(20, 40, pcs))
 
 	// GameLoop
 	engine.RunWorld(world)
