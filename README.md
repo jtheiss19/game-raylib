@@ -30,6 +30,10 @@ on github for more detailed instructions
 All other dependencies are managed by golang and one should have no issue
 using them.
 
+## Examples
+
+Two Examples are found under the path `cmd/<example_name>/`
+
 ## Basic Use - Hello World
 
 The main feature of this engine is the entity component system (ecs). In short a 
