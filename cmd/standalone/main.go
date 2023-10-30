@@ -1,12 +1,12 @@
 package main
 
 import (
-	"github.com/jtheiss19/game-raylib/internal/ecs"
-	"github.com/jtheiss19/game-raylib/internal/engine"
-	components3d "github.com/jtheiss19/game-raylib/internal/engine/components/3d"
-	objects3d "github.com/jtheiss19/game-raylib/internal/engine/objects/3d"
+	"github.com/jtheiss19/game-raylib/pkg/ecs"
+	"github.com/jtheiss19/game-raylib/pkg/engine"
+	components3d "github.com/jtheiss19/game-raylib/pkg/engine/components/3d"
+	objects3d "github.com/jtheiss19/game-raylib/pkg/engine/objects/3d"
 
-	systems3d "github.com/jtheiss19/game-raylib/internal/engine/systems/3d"
+	systems3d "github.com/jtheiss19/game-raylib/pkg/engine/systems/3d"
 
 	"github.com/google/uuid"
 )
